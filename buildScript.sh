@@ -15,5 +15,5 @@ npm install >$logUpdatePath/$logDate.log
 echo "编译项目"
 npm run build >$logBuildPath/$logDate.log
 echo "设置权限"
-chown -R www:www dist
+chown -R www:www dist/[^.]*
 echo "运行结束"
