@@ -3,8 +3,8 @@
         <div class="title">
             404 Page Not Found
         </div>
-        <div>
-            看不懂？意思是你不适合做程序员。
+        <div class="subtitle">
+            啊偶~，恭喜你发现新大陆。
         </div>
     </div>
 </template>
@@ -19,6 +19,10 @@
     .notfound {
         .title {
             font-size: 56px;
+        }
+        .subtitle{
+            margin-top: 26px;
+            font-size: 26px;
         }
     }
 </style>

@@ -22,38 +22,7 @@
     name: 'AsideNav',
     data () {
       return {
-        data: [
-          {
-            title: '热门网站',
-            id: 1,
-            icon: 'el-icon-collection-tag',
-            route: '/category/hot-site',
-          },
-          {
-            title: '编程语言',
-            id: 2,
-            icon: 'el-icon-edit',
-            route: '/category/lang',
-          },
-          {
-            title: '开发工具',
-            id: 3,
-            icon: 'el-icon-setting',
-            route: '/category/tools',
-          },
-          {
-            title: '视频教学',
-            id: 4,
-            icon: 'el-icon-video-camera',
-            route: '/category/video',
-          },
-          {
-            title: '网络资源',
-            id: 5,
-            icon: 'el-icon-finished',
-            route: '/category/resource',
-          },
-        ],
+        data: require("../databases/category"),
       }
     },
     methods: {}

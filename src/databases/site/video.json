@@ -1,0 +1,84 @@
+[
+  {
+    "title": "教学网站",
+    "children": [
+      {
+        "title": "腾讯课堂"
+      },
+      {
+        "title": "51CTO"
+      },
+      {
+        "title": "CSDN"
+      },
+      {
+        "title": "慕课网"
+      },
+      {
+        "title": "黑马程序员"
+      },
+      {
+        "title": "网易云课堂"
+      },
+      {
+        "title": "百度传课"
+      },
+      {
+        "title": "极客学院"
+      },
+      {
+        "title": "极客时间"
+      },
+      {
+        "title": "产品经理"
+      },
+      {
+        "title": "黑马程序员"
+      }
+    ]
+  },
+  {
+    "title": "培训机构",
+    "children": [
+      {
+        "title": "没给广告费"
+      },
+      {
+        "title": "你怎么这么秀"
+      },
+      {
+        "title": "lalalala"
+      }
+    ]
+  },
+  {
+    "title": "娱乐直播",
+    "children": [
+      {
+        "title": "Bilibili",
+        "site": "https://www.bilibili.com",
+        "description": "bilibili是国内知名的视频弹幕网站，这里有最及时的动漫新番，最棒的ACG氛围，最有创意的Up主。大家可以在这里找到许多欢乐。"
+      },
+      {
+        "title": "AcFun",
+        "site": "https://www.acfun.cn/",
+        "description": "AcFun是一家弹幕视频网站，致力于为每一个人带来欢乐。"
+      },
+      {
+        "title": "斗鱼",
+        "site": "https://www.douyu.com/",
+        "description": "斗鱼 - 每个人的直播平台提供高清、快捷、流畅的视频直播和游戏赛事直播服务，包含英雄联盟lol直播、穿越火线cf直播、dota2直播、美女直播等各类热门游戏赛事直播和各种名家大神游戏直播，内容丰富，推送及时，带给你不一样的视听体验，一切尽在斗鱼 - 每个人的直播平台。"
+      },
+      {
+        "title": "虎牙TV",
+        "site": "https://www.huya.com/",
+        "description": "虎牙直播是以游戏直播为主的弹幕式互动直播平台，累计注册用户2亿，提供热门游戏直播、电竞赛事直播与游戏赛事直播，手游直播等。包含王者荣耀，绝地求生，荒野行动等游戏直播，lol、dota2、dnf等热门游戏直播以及单机游戏、手游等游戏直播"
+      },
+      {
+        "title": "PandaTv",
+        "site": "https://www.panda.tv/",
+        "description": "谨以此纪念王校长的熊猫TV"
+      }
+    ]
+  }
+]

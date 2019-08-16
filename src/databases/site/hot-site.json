@@ -1,0 +1,97 @@
+[
+  {
+    "title": "社区",
+    "children": [
+      {
+        "title": "GITHUB",
+        "site": "https://www.github.com",
+        "logo": "/img/site/github.png",
+        "description": "使用GitHub的API，Jekyll和GitHub Pages快速创建您的个人开发者网站。"
+      },
+      {
+        "title": "知乎",
+        "site": "https://www.zhihu.com/",
+        "logo": "",
+        "description": "有问题，上知乎。知乎，可信赖的问答社区，以让每个人高效获得可信赖的解答为使命。知乎凭借认真、专业和友善的社区氛围，结构化、易获得的优质内容，基于问答的内容生产方式和独特的社区机制，吸引、聚集了各行各业中大量的亲历者、内行人、领域专家、领域爱好者，将高质量的内容透过人的节点来成规模地生产和分享。用户通过问答等交流方式建立信任和连接，打造和提升个人影响力，并发现、获得新机会。"
+      }
+    ]
+  },
+  {
+    "title": "新闻资讯",
+    "children": [
+      {
+        "title": "知乎",
+        "site": "https://www.zhihu.com/",
+        "logo": "",
+        "description": "有问题，上知乎。知乎，可信赖的问答社区，以让每个人高效获得可信赖的解答为使命。知乎凭借认真、专业和友善的社区氛围，结构化、易获得的优质内容，基于问答的内容生产方式和独特的社区机制，吸引、聚集了各行各业中大量的亲历者、内行人、领域专家、领域爱好者，将高质量的内容透过人的节点来成规模地生产和分享。用户通过问答等交流方式建立信任和连接，打造和提升个人影响力，并发现、获得新机会。"
+      },
+      {
+        "title": "虎嗅",
+        "site": "https://www.huxiu.com/",
+        "logo": "",
+        "description": "聚合优质的创新信息与人群，捕获精选|深度|犀利的商业科技资讯。在虎嗅，不错过互联网的每个重要时刻。"
+      },
+      {
+        "title": "36氪",
+        "site": "https://36kr.com/",
+        "logo": "",
+        "description": "36氪为您提供创业资讯、科技新闻、投融资对接、股权投资、极速融资等创业服务，致力成为创业者可以依赖的创业服务平台，为创业者提供最好的产品和服务。"
+      },
+      {
+        "title": "开发者头条",
+        "site": "http://toutiao.io/",
+        "logo": "",
+        "description": "阅读头条新闻、分享技术文章、发布开源项目，订阅技术极客/技术团队开通的独家号/团队号和关注编程牛人。"
+      },
+      {
+        "title": "极客范",
+        "site": "http://www.geekfan.net/",
+        "logo": "",
+        "description": "极客范是海量资讯的新闻服务平台,真实反映每时每刻的科技热点，在科技与人文之间寻找商业新价值，坚持以人文的视角解读科技，用专业的精神剖析时代，孜孜不倦探索科技与商业的未来。"
+      },{
+        "title": "IT之家",
+        "site": "https://www.ithome.com/",
+        "description": "IT之家，青岛软媒旗下，IT科技门户网站。快速精选IT新闻，实时报道科技周边，关注苹果iOS、谷歌Android、微软Windows Phone，紧盯iPhone/iPad、安卓智能设备、WP手机等数码潮流。技术资讯、攻略教程、资源下载 - IT人的生活，尽在IT之家，爱IT，爱这里。"
+      }
+    ]
+  },
+  {
+    "title": "我爱学习",
+    "children": [
+      {
+        "title": "GITHUB",
+        "site": "https://www.github.com",
+        "logo": "/img/site/github.png",
+        "description": "使用GitHub的API，Jekyll和GitHub Pages快速创建您的个人开发者网站。"
+      }
+    ]
+  },
+  {
+    "title": "源码托管",
+    "children": [
+      {
+        "title": "G码云",
+        "site": "https://gitee.com/",
+        "logo": "/img/site/gitee.jpg",
+        "description": "码云(gitee.com)是 OSCHINA.NET 推出的代码托管平台，支持 Git 和 SVN，提供免费的私有仓库托管。目前已有超过 350 万的开发者选择码云。"
+      },
+      {
+        "title": "GITHUB",
+        "site": "https://www.github.com",
+        "logo": "/img/site/github.png",
+        "description": "使用GitHub的API，Jekyll和GitHub Pages快速创建您的个人开发者网站。"
+      }
+    ]
+  },
+  {
+    "title": "开发工具",
+    "children": [
+      {
+        "title": "JetBrains",
+        "site": "https://jetbrains.dev/",
+        "logo": "/img/site/jetbrains.png",
+        "description": "无论您使用何种技术，JetBrains都能创建软件解决方案，使开发人员的工作效率更高。"
+      }
+    ]
+  }
+]

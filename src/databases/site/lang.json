@@ -1,0 +1,43 @@
+[
+  {
+    "title": "热门语言",
+    "children": [
+      {
+        "title": "Go",
+        "site": "https://golang.google.cn/",
+        "logo": "",
+        "description": "Go是一种开源编程语言，可以轻松构建 简单，可靠，高效的软件。"
+      },
+      {
+        "title": "C"
+      },
+      {
+        "title": "C++"
+      },
+      {
+        "title": "Java"
+      },
+      {
+        "title": "PHP"
+      },
+      {
+        "title": "Python"
+      },
+      {
+        "title": "C# .NET"
+      },
+      {
+        "title": ".NET Core"
+      },
+      {
+        "title": "TypeScript"
+      },
+      {
+        "title": "JavaScript"
+      },
+      {
+        "title": "Lua"
+      }
+    ]
+  }
+]

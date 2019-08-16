@@ -90,4 +90,7 @@
         padding: 0;
         margin: 0;
     }
+    body{
+        min-width: 1366px;
+    }
 </style>
