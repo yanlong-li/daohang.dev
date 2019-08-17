@@ -9,16 +9,22 @@
         "description": "Go是一种开源编程语言，可以轻松构建 简单，可靠，高效的软件。"
       },
       {
-        "title": "C"
+        "title": "TypeScript"
       },
       {
-        "title": "C++"
+        "title": "JavaScript"
       },
       {
         "title": "Java"
       },
       {
         "title": "PHP"
+      },
+      {
+        "title": "C"
+      },
+      {
+        "title": "C++"
       },
       {
         "title": "Python"
@@ -30,13 +36,54 @@
         "title": ".NET Core"
       },
       {
-        "title": "TypeScript"
-      },
-      {
-        "title": "JavaScript"
-      },
-      {
         "title": "Lua"
+      }
+    ]
+  },
+  {
+    "title": "PHP框架",
+    "tips": "推荐 ThinkPHP 5.1+ 和 laravel 5.8+",
+    "children": [
+      {
+        "title": "Laravel中文站",
+        "description": "Laravel是一套简洁、优雅的PHP Web开发框架(PHP Web Framework)。它可以让你从面条一样杂乱的代码中解脱出来；它可以帮你构建一个完美的网络APP，而且每行代码都可以简洁、富于表达力。",
+        "site": "https://learnku.com/laravel"
+      },
+      {
+        "title": "ThinkPHP",
+        "description": "ThinkPHP是一个免费开源的，快速、简单的面向对象的轻量级PHP开发框架，是为了敏捷WEB应用开发和简化企业应用开发而诞生的。",
+        "site": "http://www.thinkphp.cn/"
+      },
+      {
+        "title": "CodeIgniter",
+        "description": "CodeIgniter 是一个小巧但功能强大的 PHP 框架，作为一个简单而“优雅”的工具包，它可以为开发者们建立功能完善的 Web 应用程序。",
+        "site": "https://codeigniter.org.cn/"
+      },
+      {
+        "title": "Yii",
+        "description": "Yii 是一个 高性能 的，适用于开发 WEB 2.0 应用的 PHP 框架。",
+        "site": "https://www.yiichina.com/"
+      }
+    ]
+  },
+  {
+    "title": "Java框架",
+    "children": [
+      {
+        "title": "Spring",
+        "description": "Spring、SpringMVC、SpringBoot、Spring Cloud 分不清，自己看吧",
+        "site": "https://spring.io/"
+      }
+    ]
+  },
+  {
+    "title": "JS框架",
+    "children": [
+      {
+        "title": "Vue",
+        "logo": "/img/site/vue.png",
+        "description": "The Progressive\nJavaScript Framework",
+        "site": "https://vuejs.org/"
       }
     ]
   }

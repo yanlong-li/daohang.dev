@@ -1,39 +1,51 @@
 [
   {
     "title": "教学网站",
+    "tips": "<p style='color:#F56C6C;'>没有广告费！！！</p>",
     "children": [
       {
-        "title": "腾讯课堂"
+        "title": "腾讯课堂",
+        "site": "https://ke.qq.com/"
       },
       {
-        "title": "51CTO"
+        "title": "51CTO",
+        "site": "https://edu.51cto.com/"
       },
       {
-        "title": "CSDN"
+        "title": "CSDN",
+        "site": "https://edu.csdn.net/"
       },
       {
-        "title": "慕课网"
+        "title": "慕课网",
+        "site": "https://www.imooc.com/"
       },
       {
-        "title": "黑马程序员"
+        "title": "黑马程序员",
+        "site": "http://www.itheima.com/"
       },
       {
-        "title": "网易云课堂"
+        "title": "网易云课堂",
+        "site": "https://study.163.com/"
       },
       {
-        "title": "百度传课"
+        "title": "百度传课",
+        "site": "https://chuanke.baidu.com/"
       },
       {
-        "title": "极客学院"
+        "title": "极客学院",
+        "site": "https://www.jikexueyuan.com"
       },
       {
-        "title": "极客时间"
+        "title": "极客时间",
+        "site": "https://time.geekbang.org/"
       },
       {
-        "title": "产品经理"
+        "title": "产品经理",
+        "site": "http://www.woshipm.com/"
       },
       {
-        "title": "黑马程序员"
+        "title": "PFinal",
+        "site": "http://www.pfinal.cn"
       }
     ]
   },

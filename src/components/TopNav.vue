@@ -22,23 +22,23 @@
     </div>
 </template>
 <script>
-  export default {
-    name: 'topNav',
-    data () {
-      return {
-      }
+export default {
+  name: 'topNav',
+  data () {
+    return {
+    }
+  },
+  methods: {
+    toHome () {
+      this.$router.push({
+        name: 'home'
+      })
     },
-    methods: {
-      toHome () {
-        this.$router.push({
-          name: 'home',
-        })
-      },
-      handleSelect (key, keyPath) {
-        console.log(key, keyPath)
-      }
+    handleSelect (key, keyPath) {
+      console.log(key, keyPath)
     }
   }
+}
 </script>
 <style scoped lang="scss">
     .topNav {

@@ -1,9 +1,47 @@
 [
   {
-    "title": "热门资源",
+    "title": "热门招聘",
+    "tips": "<p style='color:#F56C6C;'>没有广告费！！！</p>",
     "children": [
       {
-        "title": "正在搜集中"
+        "title": "拉钩",
+        "site": "https://www.lagou.com/"
+      },
+      {
+        "title": "Boss",
+        "site": "https://www.zhipin.com/"
+      },
+      {
+        "title": "腾讯招聘",
+        "site": "https://careers.tencent.com/"
+      },
+      {
+        "title": "猎聘网",
+        "site": "https://www.liepin.com/"
+      },
+      {
+        "title": "斗米",
+        "site": "http://www.doumi.com/"
+      },
+      {
+        "title": "中华英才",
+        "site": "https://www.chinahr.com/"
+      },
+      {
+        "title": "58同城",
+        "site": "https://www.58.com"
+      },
+      {
+        "title": "智联招聘",
+        "site": "https://www.zhaopin.com/"
+      },
+      {
+        "title": "大街网",
+        "site": "https://www.dajie.com/"
+      },
+      {
+        "title": "中国南方航空",
+        "site": "https://job.csair.com/"
       }
     ]
   }

@@ -3,7 +3,207 @@
     "title": "热门工具",
     "children": [
       {
-        "title": "正在搜集中"
+        "title": "站长工具",
+        "site": "http://tool.chinaz.com/"
+      },
+      {
+        "title": "JSON工具",
+        "description": "针对JSON的在线解析、压缩、转义、编辑多功能工具。",
+        "site": "https://www.bejson.com/"
+      },
+      {
+        "title": "PostMan",
+        "description": "专业版模拟HTTP请求工具,模拟发送HTTP协议的POST或GET请求,支持设置各项参数",
+        "site": "https://www.getpostman.com/"
+      },
+      {
+        "title": "MD5解密",
+        "description": "在线MD5解密",
+        "site": "https://www.somd5.com/"
+      },
+      {
+        "title": "URL解码",
+        "description": "在线url网址编码、解码",
+        "site": "https://www.bejson.com/enc/urlencode/"
+      },
+      {
+        "title": "UNICODE转码",
+        "description": "在线unicode转中文,中文转unicode",
+        "site": "https://www.bejson.com/convert/unicode_chinese/"
+      },
+      {
+        "title": "矢量图库",
+        "description": "来自阿里巴巴的矢量图库",
+        "site": "https://www.iconfont.cn/"
+      },
+      {
+        "title": "二维码",
+        "description": "在线生成二维码,在线解密二维码",
+        "site": "https://www.bejson.com/convert/qrcode/"
+      },
+      {
+        "title": "正则表达式",
+        "description": "在线正则表达式、正则生成、测试",
+        "site": "https://www.bejson.com/othertools/regex/"
+      }
+    ]
+  },
+  {
+    "title": "团队协同",
+    "children": [
+      {
+        "title": "Teambition",
+        "site": "https://www.teambition.com/"
+      },
+      {
+        "title": "领歌",
+        "site": "https://www.leangoo.com"
+      },
+      {
+        "title": "墨刀",
+        "description": "专业、可靠、简洁、易懂的在线产品原型设计与协作平台",
+        "site": "https://modao.cc/"
+      },
+      {
+        "title": "蓝湖",
+        "site": "https://lanhuapp.com/"
+      },
+      {
+        "title": "泛微",
+        "site": "https://www.weaver.com.cn/"
+      },
+      {
+        "title": "worktile",
+        "site": "https://worktile.com/"
+      },
+      {
+        "title": "tower",
+        "site": "https://tower.im/"
+      }
+    ]
+  },
+  {
+    "title": "在线工具"
+  },
+  {
+    "title": "IDE",
+    "children": [
+      {
+        "title": "Vs Code",
+        "description": "Visual Studio代码是为构建和调试现代Web和云应用程序而重新定义和优化的代码编辑器。Visual Studio代码是免费的，可以在您最喜欢的平台（Linux、MacOS和Windows）上使用。",
+        "site": "https://code.visualstudio.com/"
+      },
+      {
+        "title": "IDEA",
+        "description": "一个有能力和符合人体工程学的Java IDE，用于企业Java、Scala、Kotlin等等。",
+        "site": "http://www.jetbrains.com/idea/"
+      },
+      {
+        "title": "Eclipse",
+        "description": "Eclipse基金会——全球社区、Eclipse IDE、Jakarta EE和超过350个开源项目，包括运行时、工具和框架。",
+        "site": "https://www.eclipse.org/"
+      },
+      {
+        "title": "PhpStorm",
+        "description": "PhpStorm 是一个完美的PHP IDE，可以与 ThinkPHP、Symfony、Laravel、WordPress、Zend Framework、CakePHP、Yii和其他框架。",
+        "site": "https://www.jetbrains.com/phpstorm/"
+      },
+      {
+        "title": "WebStorm",
+        "description": "一个功能强大的IDE，用于现代 JavaScript 开发，具有针对 JavaScript、TypeScript 和最流行的 Web 框架的代码完成和重构功能。",
+        "site": "https://www.jetbrains.com/webstorm"
+      },
+      {
+        "title": "GoLand",
+        "site": "https://www.jetbrains.com/go",
+        "description": "GoLand 是 JetBrains 的一个 IDE ，旨在为 Go 开发提供符合人体工程学的环境。"
+      },
+      {
+        "title": "PyCharm",
+        "description": " Python & Django IDE 具有智能代码完成、动态错误检查、快速修复等功能",
+        "site": "https://www.jetbrains.com/pycharm"
+      },
+      {
+        "title": "Sublime Text 3",
+        "description": "用于代码、标记和散文的复杂文本编辑器",
+        "site": "https://www.sublimetext.com/"
+      }
+    ]
+  },
+  {
+    "title": "笔记任务",
+    "children": [
+      {
+        "title": "印象笔记"
+      },
+      {
+        "title": "有道云"
+      },
+      {
+        "title": "幕布",
+        "site": "https://mubu.com/"
+      },
+      {
+        "title": "腾讯文档",
+        "site": "https://doc.qq.com/"
+      }
+    ]
+  },
+  {
+    "title": "代码仓库",
+    "children": [
+      {
+        "title": "GitEE",
+        "site": "https://www.gitee.com/"
+      },
+      {
+        "title": "GitHub",
+        "site": "https://www.github.com/"
+      },
+      {
+        "title": "GitLab",
+        "site": "https://about.gitlab.com/"
+      },
+      {
+        "title": "Coding",
+        "site": "https://coding.net/"
+      },
+      {
+        "title": "阿里云",
+        "site": "https://code.aliyun.com/"
+      }
+    ]
+  },
+  {
+    "title": "云服务",
+    "children": [
+      {
+        "title": "阿里云",
+        "site": "https://www.aliyun.com"
+      },
+      {
+        "title": "腾讯云",
+        "site": "https://cloud.tencent.com/"
+      },
+      {
+        "title": "华为云",
+        "site": "https://www.huaweicloud.com/"
+      },
+      {
+        "title": "京东云",
+        "site": "https://www.jdcloud.com/"
+      },
+      {
+        "title": "百度云",
+        "site": "https://cloud.baidu.com/"
+      },
+      {
+        "title": "AZURE",
+        "site": "https://azure.microsoft.com/zh-cn/"
+      },
+      {
+        "title": "AWS",
+        "site": "https://aws.amazon.com/cn/"
       }
     ]
   }

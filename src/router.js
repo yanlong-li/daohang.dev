@@ -7,15 +7,7 @@ import NotFound from './views/NotFound'
 Vue.use(Router)
 const originalPush = Router.prototype.push
 Router.prototype.push = function push (location) {
-  return originalPush.call(this, location).catch(err => {
-    // const h = this.$createElement
-    // this.$message({
-    //   message: h('p', null, [
-    //     h('span', null, '当前已经处于首页啦 '),
-    //     h('i', { style: 'color: teal' }, 'lalalalala')
-    //   ])
-    // })
-  })
+  return originalPush.call(this, location).catch(err => err)
 }
 
 export default new Router({
@@ -42,7 +34,7 @@ export default new Router({
     {
       path: '*',
       name: 'not-found',
-      component: NotFound,
+      component: NotFound
     }
   ]
 })

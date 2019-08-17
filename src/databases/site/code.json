@@ -1,0 +1,62 @@
+[
+  {
+    "title": "代码仓库",
+    "children": [
+      {
+        "title": "GitEE",
+        "site": "https://www.gitee.com/"
+      },
+      {
+        "title": "GitHub",
+        "site": "https://www.github.com/"
+      },
+      {
+        "title": "GitLab",
+        "site": "https://about.gitlab.com/"
+      },
+      {
+        "title": "Coding",
+        "site": "https://coding.net/"
+      },
+      {
+        "title": "阿里云",
+        "site": "https://code.aliyun.com/"
+      }
+    ]
+  },
+  {
+    "title": "云服务",
+    "children": [
+      {
+        "title": "阿里云",
+        "site": "https://www.aliyun.com"
+      },
+      {
+        "title": "腾讯云",
+        "site": "https://cloud.tencent.com/"
+      },
+      {
+        "title": "华为云",
+        "site": "https://www.huaweicloud.com/"
+      },
+      {
+        "title": "京东云",
+        "site": "https://www.jdcloud.com/"
+      },
+      {
+        "title": "百度云",
+        "site": "https://cloud.baidu.com/"
+      },
+      {
+        "title": "AZURE",
+        "site": "https://azure.microsoft.com/zh-cn/"
+      },
+      {
+        "title": "AWS",
+        "site": "https://aws.amazon.com/cn/"
+      }
+
+
+    ]
+  }
+]

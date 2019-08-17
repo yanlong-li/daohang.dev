@@ -7,7 +7,7 @@
                         class="el-menu-vertical-demo"
                         :router="true"
                 >
-                    <el-menu-item v-for="(item,index) in data" v-bind:tabindex="index+1" :index="item.route">
+                    <el-menu-item v-for="(item,index) in data" v-bind:tabindex="index+1" :key="index" :index="item.route">
                         <i v-bind:class="item.icon"></i>
                         <span slot="title" v-text="item.title"></span>
                     </el-menu-item>
@@ -18,15 +18,15 @@
 </template>
 
 <script>
-  export default {
-    name: 'AsideNav',
-    data () {
-      return {
-        data: require("../databases/category"),
-      }
-    },
-    methods: {}
-  }
+export default {
+  name: 'AsideNav',
+  data () {
+    return {
+      data: require('../databases/category')
+    }
+  },
+  methods: {}
+}
 </script>
 
 <style scoped>

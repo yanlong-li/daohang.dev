@@ -22,18 +22,18 @@
 </template>
 
 <script>
-  import TopNav from './components/TopNav'
-  import Footer from './components/Footer'
-  import AsideNav from './components/AsideNav'
+import TopNav from './components/TopNav'
+import Footer from './components/Footer'
+import AsideNav from './components/AsideNav'
 
-  export default {
-    name: 'app',
-    components: {
-      TopNav,
-      Footer,
-      AsideNav
-    }
+export default {
+  name: 'app',
+  components: {
+    TopNav,
+    Footer,
+    AsideNav
   }
+}
 </script>
 
 <style scoped lang="scss">
@@ -89,6 +89,7 @@
     * {
         padding: 0;
         margin: 0;
+        font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
     }
     body{
         min-width: 1366px;
