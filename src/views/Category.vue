@@ -4,8 +4,8 @@
             <el-tab-pane class="item" v-for="(item,index) in siteData" v-bind:label="item.title" :key="index"
                          :name="item.name">
                 <div style="height: 635px">
-                    <div class="tips" v-html="item.tips" v-if="item.tips">Tips</div>
                 <el-scrollbar class="cards" style="height: 100%">
+                    <div class="tips" v-html="item.tips" v-if="item.tips">Tips</div>
                     <el-row>
                         <el-col :span="4" v-for="(itemm, index) in item.children" :key="index">
                             <el-card :body-style="{ padding: '0px' }" class="itemm" shadow="hover">
@@ -32,47 +32,47 @@
 </template>
 
 <script>
-  import '../databases/site/hot-site.json'
+import '../databases/site/hot-site.json'
 
-  export default {
-    name: 'Category',
-    data: function () {
-      return {
-        category: null,
-        activeTab: '0',
-        siteData: []
+export default {
+  name: 'Category',
+  data: function () {
+    return {
+      category: null,
+      activeTab: '0',
+      siteData: []
 
-      }
-    },
-    watch: {
-      '$route': function () {
-        this.category = this.$route.params.pathMatch
-        try {
-          this.siteData = require('../databases/site/' + this.category + '.json')
-        } catch (e) {
-          this.$router.push({
-            path: '/404'
-          })
-        }
-        // 额外的热门网站首选 学习强国
-        if (this.category === 'hot-site') {
-          this.activeTab = '0'
-        } else {
-          this.activeTab = '0'
-        }
-      }
-    },
-    created () {
+    }
+  },
+  watch: {
+    '$route': function () {
       this.category = this.$route.params.pathMatch
       try {
         this.siteData = require('../databases/site/' + this.category + '.json')
       } catch (e) {
         this.$router.push({
-          path: '404'
+          path: '/404'
         })
       }
+      // 额外的热门网站首选 学习强国
+      if (this.category === 'hot-site') {
+        this.activeTab = '0'
+      } else {
+        this.activeTab = '0'
+      }
+    }
+  },
+  created () {
+    this.category = this.$route.params.pathMatch
+    try {
+      this.siteData = require('../databases/site/' + this.category + '.json')
+    } catch (e) {
+      this.$router.push({
+        path: '404'
+      })
     }
   }
+}
 </script>
 
 <style scoped lang="scss">

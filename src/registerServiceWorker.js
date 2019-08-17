@@ -1,5 +1,7 @@
 /* eslint-disable no-console */
-
+import {
+  MessageBox
+} from 'element-ui'
 import { register } from 'register-service-worker'
 
 if (process.env.NODE_ENV === 'production') {
@@ -20,6 +22,16 @@ if (process.env.NODE_ENV === 'production') {
     },
     updated () {
       console.log('新内容可用；重新加载时生效。')
+      MessageBox.confirm(
+        '有新的更新啦！',
+        '更新提示', {
+          confirmButtonText: '更新',
+          cancelButtonText: '取消',
+          type: 'success'
+        }
+      ).then(() => {
+        window.location = ''
+      }).catch(res => res)
     },
     offline () {
       console.log('找不到Internet连接。应用程序正在脱机模式下运行。')
