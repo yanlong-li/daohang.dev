@@ -7,7 +7,6 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
-  "main": "electron.js",
   "dependencies": {
     "core-js": "^2.6.5",
     "element-ui": "^2.11.1",

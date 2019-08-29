@@ -7,6 +7,11 @@
         "site": "http://tool.chinaz.com/"
       },
       {
+        "title": "safe-in-cloud",
+        "description": "我目前正在用的一款密码管理工具，作为程序员经常性注册各个平台的账户寻找资源，时间多了不太好管理。用过1Password很好用就是太贵，这个软件体验上也不差。IOS版收费30元，PC和安卓都是免费。支持谷歌验证器，支持网盘同步再也不用担心手机丢失或者重装系统丢失了。",
+        "site": "https://www.safe-in-cloud.com/en/"
+      },
+      {
         "title": "JSON工具",
         "description": "针对JSON的在线解析、压缩、转义、编辑多功能工具。",
         "site": "https://www.bejson.com/"
@@ -83,7 +88,53 @@
     ]
   },
   {
-    "title": "在线工具"
+    "title": "在线工具",
+    "children": [
+      {
+        "title": "站长工具",
+        "site": "http://tool.chinaz.com/"
+      },
+      {
+        "title": "JSON工具",
+        "description": "针对JSON的在线解析、压缩、转义、编辑多功能工具。",
+        "site": "https://www.bejson.com/"
+      },
+      {
+        "title": "PostMan",
+        "description": "专业版模拟HTTP请求工具,模拟发送HTTP协议的POST或GET请求,支持设置各项参数",
+        "site": "https://www.getpostman.com/"
+      },
+      {
+        "title": "MD5解密",
+        "description": "在线MD5解密",
+        "site": "https://www.somd5.com/"
+      },
+      {
+        "title": "URL解码",
+        "description": "在线url网址编码、解码",
+        "site": "https://www.bejson.com/enc/urlencode/"
+      },
+      {
+        "title": "UNICODE转码",
+        "description": "在线unicode转中文,中文转unicode",
+        "site": "https://www.bejson.com/convert/unicode_chinese/"
+      },
+      {
+        "title": "矢量图库",
+        "description": "来自阿里巴巴的矢量图库",
+        "site": "https://www.iconfont.cn/"
+      },
+      {
+        "title": "二维码",
+        "description": "在线生成二维码,在线解密二维码",
+        "site": "https://www.bejson.com/convert/qrcode/"
+      },
+      {
+        "title": "正则表达式",
+        "description": "在线正则表达式、正则生成、测试",
+        "site": "https://www.bejson.com/othertools/regex/"
+      }
+    ]
   },
   {
     "title": "IDE",
@@ -204,6 +255,21 @@
       {
         "title": "AWS",
         "site": "https://aws.amazon.com/cn/"
+      }
+    ]
+  },
+  {
+    "title": "密码管理",
+    "children": [
+      {
+        "title": "safe-in-cloud",
+        "description": "我目前正在用的一款密码管理工具，作为程序员经常性注册各个平台的账户寻找资源，时间多了不太好管理。用过1Password很好用就是太贵，这个软件体验上也不差。IOS版收费30元，PC和安卓都是免费。支持谷歌验证器，支持网盘同步再也不用担心手机丢失或者重装系统丢失了。",
+        "site": "https://www.safe-in-cloud.com/en/"
+      },
+      {
+        "title": "1Password",
+        "description": "市面上最好的密码管理器，唯一的缺点就是贵",
+        "site": "https://1password.com"
       }
     ]
   }
