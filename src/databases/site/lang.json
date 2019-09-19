@@ -9,34 +9,51 @@
         "description": "Go是一种开源编程语言，可以轻松构建 简单，可靠，高效的软件。"
       },
       {
-        "title": "TypeScript"
+        "title": "TypeScript",
+        "description": "TypeScript 是 JavaScript 的超集，扩展了 JavaScript 的语法，因此现有的 JavaScript 代码可与 TypeScript 一起工作无需任何修改，TypeScript 通过类型注解提供编译时的静态类型检查。\n\nTypeScript 可处理已有的 JavaScript 代码，并只对其中的 TypeScript 代码进行编译。"
       },
       {
-        "title": "JavaScript"
+        "title": "JavaScript",
+        "description": "JavaScript 是互联网上最流行的脚本语言，这门语言可用于 HTML 和 web，更可广泛用于服务器、PC、笔记本电脑、平板电脑和智能手机等设备。",
+        "site": "https://www.runoob.com/js/js-tutorial.html"
       },
       {
-        "title": "Java"
+        "title": "Java",
+        "description": "Java是由Sun Microsystems公司于1995年5月推出的Java面向对象程序设计语言和Java平台的总称。由James Gosling和同事们共同研发，并在1995年正式推出。",
+        "site": "https://www.runoob.com/java/java-intro.html"
       },
       {
-        "title": "PHP"
+        "title": "PHP",
+        "description": "PHP 是免费的， 是一种创建动态交互性站点的强有力的服务器端脚本语言, 并且使用非常广泛。PHP（全称：PHP：Hypertext Preprocessor，即\"PHP：超文本预处理器\"）是一种通用开源脚本语言。",
+        "site": "https://php.net"
       },
       {
-        "title": "C"
+        "title": "C",
+        "description": "C 语言是一种通用的高级语言，最初是由丹尼斯·里奇在贝尔实验室为开发 UNIX 操作系统而设计的。C 语言最开始是于 1972 年在 DEC PDP-11 计算机上被首次实现。\n\n在 1978 年，布莱恩·柯林汉（Brian Kernighan）和丹尼斯·里奇（Dennis Ritchie）制作了 C 的第一个公开可用的描述，现在被称为 K&R 标准。\n\nUNIX 操作系统，C编译器，和几乎所有的 UNIX 应用程序都是用 C 语言编写的。由于各种原因，C 语言现在已经成为一种广泛使用的专业语言。",
+        "site": "https://www.runoob.com/cprogramming/c-tutorial.html"
       },
       {
-        "title": "C++"
+        "title": "C++",
+        "description": "C++ 是一种中级语言，它是由 Bjarne Stroustrup 于 1979 年在贝尔实验室开始设计开发的。C++ 进一步扩充和完善了 C 语言，是一种面向对象的程序设计语言。C++ 可运行于多种平台上，如 Windows、MAC 操作系统以及 UNIX 的各种版本。",
+        "site": "https://www.runoob.com/cplusplus/cpp-tutorial.html"
       },
       {
-        "title": "Python"
+        "title": "Python",
+        "description": "Python 是一个高层次的结合了解释性、编译性、互动性和面向对象的脚本语言。\n\nPython 的设计具有很强的可读性，相比其他语言经常使用英文关键字，其他语言的一些标点符号，它具有比其他语言更有特色语法结构。",
+        "site": "https://www.python.org/"
       },
       {
-        "title": "C# .NET"
+        "title": "C# .NET",
+        "description": "C# 是一个现代的、通用的、面向对象的编程语言，它是由微软（Microsoft）开发的，由 Ecma 和 ISO 核准认可的。\n\nC# 是由 Anders Hejlsberg 和他的团队在 .Net 框架开发期间开发的。\n\nC# 是专为公共语言基础结构（CLI）设计的。CLI 由可执行代码和运行时环境组成，允许在不同的计算机平台和体系结构上使用各种高级语言。",
+        "site": "https://www.runoob.com/csharp/csharp-tutorial.html"
       },
       {
         "title": ".NET Core"
       },
       {
-        "title": "Lua"
+        "title": "Lua",
+        "description": "Lua 是一种轻量小巧的脚本语言，用标准C语言编写并以源代码形式开放， 其设计目的是为了嵌入应用程序中，从而为应用程序提供灵活的扩展和定制功能。",
+        "site": "https://www.runoob.com/lua/lua-tutorial.html"
       }
     ]
   },
