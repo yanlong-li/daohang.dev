@@ -24,29 +24,16 @@ if (process.env.NODE_ENV === 'production') {
 
       console.log('新内容可用；重新加载时生效。')
       MessageBox.confirm(
-        '有新的更新啦！',
+        '有新的更新啦！重新启动后生效。',
         '更新提示', {
-          confirmButtonText: '更新',
+          confirmButtonText: '确定',
           cancelButtonText: '取消',
           type: 'success'
         }
       ).then(() => {
-        //todo 如何清除缓存呢？
-        event.waitUntil(
-          caches.keys().then(function (cacheNames) {
-            return Promise.all(
-              cacheNames.map(function (cacheName) {
-                // 如果有更新
-                // if (cacheName !== 'v1') {
-                return caches.delete(cacheName)
-                // }
-              })
-            )
-          })
-            .then(function () {
-              return self.clients.claim()
-            })
-        )
+
+        // window.open()
+
       }).catch(res => res)
     },
     offline () {
