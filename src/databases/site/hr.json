@@ -5,43 +5,69 @@
     "children": [
       {
         "title": "拉钩",
+        "logo": "https://ecmb.bdimg.com/tam-ogel/588c95515a0e1d2ebf6c0670f65e90dd_121_121.jpg",
+        "description": "拉勾网是专业的互联网行业招聘平台。致力于提供真实可靠的互联网招聘信息。工资不面议。找工作、要招聘、搜人才就来拉勾网。互联网行业找工作就上拉勾网。",
         "site": "https://www.lagou.com/"
       },
       {
         "title": "Boss",
+        "logo": "https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1109465500,3573363372&fm=58&s=98235E32C415D8331AE667580200C0EE&bpow=121&bpoh=75",
+        "description": "BOSS直聘是权威领先的招聘网,开启人才网招聘求职新时代,让求职者与Boss直接开聊、加快面试、即时反馈,找工作就来BOSS直聘和Boss开聊吧!",
         "site": "https://www.zhipin.com/"
       },
       {
         "title": "腾讯招聘",
+        "logo": "https://cdn.multilingualres.hr.tencent.com/tencentcareer/static/images/Tencent-logo-b.png",
+        "description": "腾讯长期致力于社交平台与数字内容两大核心业务,积极拥抱产业互联网,努力成为各行各业数字化助手,通过连接,提升每一个人的生活品质。 ",
         "site": "https://careers.tencent.com/"
       },
       {
         "title": "猎聘网",
+        "logo": "https://ecmb.bdimg.com/tam-ogel/f6b01f09a460619ae1566efae90180d3_121_121.jpg",
+        "description": "猎聘为招聘中高端人才提供超过500万条精英职业找工作信息,70000多位猎头在线为您提供找工作服务,覆盖40多个招聘行业,发布世界500强企业招聘信息。",
         "site": "https://www.liepin.com/"
       },
       {
         "title": "斗米",
+        "logo": "https://ss2.bdstatic.com/8_V1bjqh_Q23odCf/pacific/1889802553.jpg",
+        "description": "斗米是高效的一站式招聘服务平台，为广大基层岗位求职者提供安全、丰富的全职与兼职工作信息，帮助求职者快速找到合适岗位。为企业提供在线招聘、线下RPO招聘、岗位外包等专业的服务。",
         "site": "http://www.doumi.com/"
       },
       {
         "title": "中华英才",
+        "logo": "http://st02.chrstatic.com/themes/pcchinahr/img/hf/logo.gif",
+        "description": "中华英才网人才招聘网，为您提供人才网招聘信息，职位招聘信息，高薪职位招聘信息，白领招聘信息等，了解人才网招聘信息，中华英才人才招聘网",
         "site": "https://www.chinahr.com/"
       },
       {
         "title": "58同城",
+        "logo": "https://img.58cdn.com.cn/logo/58/160_45/logo-o.gif",
+        "description": "58同城分类信息网，为你提供房产、招聘、黄页、团购、交友、二手、宠物、车辆、周边游等海量分类信息，充分满足您免费查看/发布信息的需求。",
         "site": "https://www.58.com"
       },
       {
         "title": "智联招聘",
+        "logo": "https://fecdn1.zhaopin.cn/www/assets/zhaopin.4659478df1ec9a2e6ed76997a64884f6.png",
+        "description": "智联招聘全程职业发展平台,1.6亿求职用户+每天新增780万高薪职位+415万名企雇主,立即登录投简历,24小时找到好工作!",
         "site": "https://www.zhaopin.com/"
       },
       {
         "title": "大街网",
+        "logo": "https://assets.dajieimg.com/images/header/newHeader/logo-b.png",
+        "description": "大街网创立于2008年底，是一家真正专属于年轻人的移动社交招聘平台,为年轻职场人匹配最佳工作机会,拓展职场人脉,提升职场价值.大街想要做的,就是用互联网思维,以颠覆招聘行业的方式来服务招聘行业.",
         "site": "https://www.dajie.com/"
       },
       {
-        "title": "中国南方航空",
-        "site": "https://job.csair.com/"
+        "title": "领英",
+        "logo": "https://ss2.bdstatic.com/8_V1bjqh_Q23odCf/pacific/1907036247.jpg",
+        "description": "LinkedIn（领英）是全球职场社交平台，覆盖全球6.1亿会员及200多个国家和地区，致力于打造“一站式职业发展平台”，帮助职场人发挥所长，连接无限机会。在领英，您可以轻松打造职业形象、获取商业洞察、拓展职业人脉并发现更多职业机遇。",
+        "site": "https://www.linkedin.com"
+      },
+      {
+        "title": "脉脉",
+        "logo": "https://acc.maimai.cn/images/logo_new.png",
+        "description": "脉脉(maimai.cn),中国领先的职场实名社交平台,利用科学算法为职场人拓展人脉,降低商务社交门槛,实现各行各业交流合作。",
+        "site": "https://www.linkedin.com"
       }
     ]
   }

@@ -21,7 +21,122 @@
       },
       {
         "title": "流行设备",
+        "description": "Facebook支持世界各地的不同受众以及同样多样化的设备。为了强调在我们的设计模拟中，我们重新绘制了一系列设备以显示使用我们产品的人们的全球多样性。每个设备都带有该设备的位图（带有和不带有阴影）以及该设备的原始Sketch文件。",
         "site": "https://facebook.design/devices"
+      }
+    ]
+  },
+  {
+    "title": "Bootstrap相关优质项目推荐",
+    "tips": "<a class='el-link el-link--default is-underline' target=\"_blank\" href='https://www.bootcss.com/'>这些项目或者是对Bootstrap进行了有益的补充，或者是基于Bootstrap开发的.来源于https://www.bootcss.com/</a>",
+    "children": [
+      {
+        "title": "Webpack",
+        "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/webpack.png",
+        "description": "Webpack 是当下最热门的前端资源模块化管理和打包工具。它可以将许多松散的模块按照依赖和规则打包成符合生产环境部署的前端资源",
+        "site": "https://www.webpackjs.com/"
+      },
+      {
+        "title": "jQuery API",
+        "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/jqueryapi.png",
+        "description": "根据最新的 jQuery 1.11.x 和 2.1.x 版本翻译的 jQuery API 中文文档/手册。",
+        "site": "https://www.jquery123.com/"
+      },
+      {
+        "title": "Next.js",
+        "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/nextjs.png",
+        "description": "Next.js 是一个轻量级的 React 服务端渲染应用框架。",
+        "site": "https://www.nextjs.cn/"
+      },
+      {
+        "title": "Node.js",
+        "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/nodejs.png",
+        "description": "Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。Node.js 使用了一个事件驱动、非阻塞式 I/O 的模型，使其轻量又高效。",
+        "site": "https://www.nodeapp.cn/"
+      },
+      {
+        "title": "ESLint",
+        "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/eslint.png",
+        "description": "ESLint 是一个插件化并且可配置的 JavaScript 语法规则和代码风格的检查工具。ESLint 能够帮你轻松写出高质量的 JavaScript 代码。",
+        "site": "https://cn.eslint.org/"
+      },
+      {
+        "title": "Sass",
+        "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/sass.png",
+        "description": "最流行的 CSS 扩展语言解析器\nSass 是一个成熟、稳定、强大的 CSS 扩展语言解析器。",
+        "site": "https://www.sasscss.com/"
+      },
+      {
+        "title": "LESS",
+        "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/lesscss.png",
+        "description": "LESS 为 CSS 赋予了动态语言的特性，如变量、继承、运算、函数。LESS 既可以在客户端上运行 (支持 IE 6+、Webkit、Firefox)，也可以借助 Node.js 或者 Rhino 在服务端运行。",
+        "site": "https://www.bootcss.com/p/lesscss/"
+      },
+      {
+        "title": "Stylus",
+        "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/stylus.png",
+        "description": "Stylus - 富于表现力、健壮、功能丰富的 CSS 预处理语言",
+        "site": "https://stylus.bootcss.com/"
+      },
+      {
+        "title": "Chart.js",
+        "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/chartjs.png",
+        "description": "开源的 HTML5 图表工具\nChart.js 是为设计和开发人员准备的简单、灵活的 JavaScript 图表工具。",
+        "site": "https://chartjs.bootcss.com/"
+      },
+      {
+        "title": "w3schools",
+        "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/w3schools.png",
+        "description": "w3schools.com 是最受欢迎的前端技术教程网站，但是国内用户一直不能访问，并且国内的中文翻译版本十分陈旧。因此做了个镜像，希望英文好的同学直接去看原版教程吧！",
+        "site": "https://www.quanzhanketang.com/"
+      },
+      {
+        "title": "Nginx",
+        "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/nginx.jpg",
+        "description": "Nginx (engine x) 是一个高性能的HTTP和反向代理服务，也是一个IMAP/POP3/SMTP服务。",
+        "site": "https://nginx.bootcss.com/"
+      },
+      {
+        "title": "Bootstrap Switch",
+        "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/bootstrap-switch.png",
+        "description": "Bootstrap Switch 是对 Bootstrap 控件的扩充。基于选 HTML 中基本的选择框控件实现只有开和关两种状态的单选按钮。",
+        "site": "https://www.bootcss.com/p/bootstrap-switch/"
+      },
+      {
+        "title": "Messenger",
+        "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/messenger.png",
+        "description": "Messenger 是一个非常酷的弹框(Alert)组件，能够非常好的与 Bootstrap 融合，当然，单独使用效果也是非常棒。Messenger 自带4套皮肤。",
+        "site": "https://www.bootcss.com/p/messenger/"
+      },
+      {
+        "title": "Font Awesome",
+        "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/font-awesome.png",
+        "description": "Font Awesome 中包含的所有图标都是矢量的，也就可以任意缩放，避免了一个图标做多种尺寸的麻烦。CSS 对字体可以设置的样式也同样能够运用到这些图标上了。",
+        "site": "https://www.bootcss.com/p/font-awesome/"
+      },
+      {
+        "title": "Simple Icons",
+        "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/simpleicons.png",
+        "description": "Simple Icons -- Icon汇。收集众多网站的 Logo，并提供高质量、不同尺寸的 png 格式图片给广大网友，所有 Icon 版权归其所属公司。",
+        "site": "https://www.bootcss.com/p/simple-icons/"
+      },
+      {
+        "title": "Web 安全色",
+        "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/websafecolors.png",
+        "description": "本表中列出的是 WEB 设计、开发中常用安全色。列于此是为了方便大家参考。",
+        "site": "https://www.bootcss.com/p/websafecolors/"
+      },
+      {
+        "title": "Grumble.js",
+        "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/grumblejs.png",
+        "description": "气泡形状的提示（Tooltip）控件\n一个气泡形状的提示（Tooltip）控件，可以在其围绕的元素周围做360度任意定位。",
+        "site": "https://www.bootcss.com/p/grumblejs/"
+      },
+      {
+        "title": "Buttons",
+        "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/buttons.png",
+        "description": "CSS 按钮样式库\nButtons 是一个基于 Sass 和 Compass 构建的CSS按钮（button）样式库，图标采用的是Font Awesome，可以和 Bootstrap 融合使用。",
+        "site": "https://www.bootcss.com/p/buttons/"
       }
     ]
   },

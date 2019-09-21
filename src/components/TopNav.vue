@@ -2,7 +2,7 @@
     <div class="topNav">
         <el-row>
             <el-col :span="3">
-                <div class="nav" v-on:click="toHome">开发者导航</div>
+                <div class="nav" @click="toPage('home')">开发者导航</div>
             </el-col>
             <el-col :span="3" :offset="18">
                 <el-dropdown trigger="click">
@@ -10,8 +10,8 @@
                     更多网站<i class="el-icon-arrow-down el-icon--right"></i>
                   </span>
                     <el-dropdown-menu slot="dropdown">
-                        <el-dropdown-item>Chat</el-dropdown-item>
-                        <el-dropdown-item>Blog</el-dropdown-item>
+                        <el-dropdown-item><el-link href="https://chat.daohang.dev" target="_blank">Chat</el-link></el-dropdown-item>
+                        <el-dropdown-item><el-link href="https://blog.yanlongli.com" target="_blank">Blog</el-link></el-dropdown-item>
                         <el-dropdown-item>QQ群</el-dropdown-item>
                         <el-dropdown-item divided>其他</el-dropdown-item>
                     </el-dropdown-menu>
@@ -29,9 +29,18 @@ export default {
     }
   },
   methods: {
-    toHome () {
+    toPage (name) {
+      console.log(name)
       this.$router.push({
-        name: 'home'
+        name: name ? name : 'home'
+      }).catch(res => {
+        const h = this.$createElement
+        this.$message({
+          message: h('p', null, [
+            h('span', null, '当前已经处于首页啦 '),
+            h('i', { style: 'color: teal' }, 'lalalalala')
+          ])
+        })
       })
     },
     handleSelect (key, keyPath) {

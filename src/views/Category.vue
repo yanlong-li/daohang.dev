@@ -55,15 +55,15 @@ export default {
         })
       }
       // 额外的热门网站首选 学习强国
-      if (this.category === 'hot-site') {
+      // if (this.category === 'hot-site') {
+      //   this.activeTab = '0'
+      // } else {
         this.activeTab = '0'
-      } else {
-        this.activeTab = '0'
-      }
+      // }
     }
   },
   created () {
-    console.log(this.$route)
+    // console.log(this.$route)
     this.category = this.$route.params.pathMatch
     try {
       this.siteData = require('../databases/site/' + this.category + '.json')

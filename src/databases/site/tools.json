@@ -4,6 +4,7 @@
     "children": [
       {
         "title": "站长工具",
+        "logo": "http://csstools.chinaz.com/tools/images/public/logos/logo-index.png",
         "description": "站长必备的建站工具大全",
         "site": "http://tool.chinaz.com/"
       },
@@ -54,11 +55,13 @@
       },
       {
         "title": "Git",
+        "logo": "https://www.runoob.com/wp-content/uploads/2015/02/f7246b600c338744a9591cd7530fd9f9d62aa0f8.png",
         "description": "Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。\n\nGit 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。\n\nGit 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。",
         "site": "https://www.runoob.com/git/git-tutorial.html"
       },
       {
         "title": "Markdown",
+        "logo": "https://www.runoob.com/wp-content/uploads/2019/03/iconfinder_markdown_298823.png",
         "description": "Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。",
         "site": "https://www.runoob.com/markdown/md-tutorial.html"
       }
@@ -69,6 +72,8 @@
     "children": [
       {
         "title": "Teambition",
+        "logo": "https://dn-st.teambition.net/site/images/global/logo.svg",
+        "description": "一切工作都可以从 Teambition 开始。无论是策划活动、研发软件、制造机器人、建设发电站或者发射卫星，团队成员以更高效的协作方式，围绕目标不断创造成果。",
         "site": "https://www.teambition.com/"
       },
       {

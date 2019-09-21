@@ -30,14 +30,21 @@
     "route": "/category/resource"
   },
   {
+    "id": 6,
     "title": "求职招聘",
     "icon": "icon-third-zhaopinzhongxin",
     "route": "/category/hr"
   },
   {
     "title": "代码管理",
-    "id": 5,
+    "id": 7,
     "icon": "icon-third-code",
     "route": "/category/code"
+  },
+  {
+    "id": 8,
+    "title": "分享推广",
+    "icon": "el-icon-share",
+    "route": "/category/share"
   }
 ]

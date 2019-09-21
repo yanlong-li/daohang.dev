@@ -10,7 +10,7 @@
                 </el-aside>
                 <el-container>
                     <el-main>
-                      <router-view></router-view>
+                        <router-view></router-view>
                     </el-main>
                 </el-container>
             </el-container>
@@ -22,23 +22,23 @@
 </template>
 
 <script>
-import TopNav from './components/TopNav'
-import Footer from './components/Footer'
-import AsideNav from './components/AsideNav'
+  import TopNav from './components/TopNav'
+  import Footer from './components/Footer'
+  import AsideNav from './components/AsideNav'
 
-export default {
-  name: 'app',
-  components: {
-    TopNav,
-    Footer,
-    AsideNav
-  },
-  created () {
-    // this.$router.push({
-    //   name:"home"
-    // })
+  export default {
+    name: 'app',
+    components: {
+      TopNav,
+      Footer,
+      AsideNav
+    },
+    created () {
+      // this.$router.push({
+      //   name:"home"
+      // })
+    }
   }
-}
 </script>
 
 <style scoped lang="scss">
@@ -51,7 +51,7 @@ export default {
 
         .el-header {
             padding: 0;
-          border-bottom: 1px solid #D3DCE6;
+            border-bottom: 1px solid #D3DCE6;
         }
 
         .el-header, .el-footer {
@@ -60,8 +60,12 @@ export default {
             text-align: center;
             line-height: 60px;
         }
-        .el-footer{
-          background-color: #f8f9fa;
+
+        .el-footer {
+            background-color: #f8f9fa;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
 
         .el-aside {
@@ -76,7 +80,7 @@ export default {
             color: #333;
             text-align: center;
             /*line-height: 160px;*/
-          min-height: 600px;
+            min-height: 600px;
         }
 
         .el-container:nth-child(5) .el-aside,
@@ -94,9 +98,10 @@ export default {
     * {
         padding: 0;
         margin: 0;
-        font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+        font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
     }
-    body{
+
+    body {
         min-width: 1366px;
     }
 </style>
