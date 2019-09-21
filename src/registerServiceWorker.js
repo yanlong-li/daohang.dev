@@ -21,6 +21,7 @@ if (process.env.NODE_ENV === 'production') {
       console.log('正在下载新内容')
     },
     updated () {
+
       console.log('新内容可用；重新加载时生效。')
       MessageBox.confirm(
         '有新的更新啦！',
@@ -30,7 +31,8 @@ if (process.env.NODE_ENV === 'production') {
           type: 'success'
         }
       ).then(() => {
-        window.location = ''
+        //todo 如何清除缓存呢？
+        this.update()
       }).catch(res => res)
     },
     offline () {
