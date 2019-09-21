@@ -29,7 +29,7 @@
       },
       {
         "title": "黑马程序员",
-        "logo": "http://www.itheima.com/images/logo.png",
+        "logo": "/img/site/itheima.png",
         "description": "黑马程序员专注于IT培训,Java培训,人工智能培训,Python培训,大数据培训,区块链培训,UI设计培训,PHP培训,Web前端培训,软件测试培训,产品经理培训，并提供Java培训,大数据培训,区块链培训,UI设计培训,PHP培训,软件测试培训,产品经理培训等服务。",
         "site": "http://www.itheima.com/"
       },
@@ -59,7 +59,7 @@
       },
       {
         "title": "产品经理",
-        "logo": "http://image.woshipm.com/build/img/logo.png",
+        "logo": "https://image.woshipm.com/build/img/logo.png",
         "description": "人人都是产品经理致力为产品新人、产品经理等广大产品爱好者打造一个良好的学习交流平台。深度剖析国内外互联网业内动态，分享产品设计、交互设计、视觉设计、用户体验设计、产品运营、产品市场和项目管理等专业产品知识。",
         "site": "http://www.woshipm.com/"
       },
