@@ -3,7 +3,7 @@
         <el-row class="tac">
             <el-col :span="24">
                 <el-menu
-                        default-active="2"
+                        :default-active="$route.path"
                         class="el-menu-vertical-demo"
                         :router="true"
                 >
@@ -22,10 +22,13 @@ export default {
   name: 'AsideNav',
   data () {
     return {
-      data: require('../databases/category')
+      data: require('../databases/category'),
     }
   },
-  methods: {}
+  methods: {},
+  created () {
+
+  }
 }
 </script>
 

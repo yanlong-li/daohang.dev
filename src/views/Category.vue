@@ -63,6 +63,7 @@ export default {
     }
   },
   created () {
+    console.log(this.$route)
     this.category = this.$route.params.pathMatch
     try {
       this.siteData = require('../databases/site/' + this.category + '.json')

@@ -5,7 +5,7 @@
                 <div class="nav" v-on:click="toHome">开发者导航</div>
             </el-col>
             <el-col :span="3" :offset="18">
-                <el-dropdown>
+                <el-dropdown trigger="click">
                   <span class="el-dropdown-link">
                     更多网站<i class="el-icon-arrow-down el-icon--right"></i>
                   </span>

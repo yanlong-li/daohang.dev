@@ -32,6 +32,11 @@ export default {
     TopNav,
     Footer,
     AsideNav
+  },
+  created () {
+    // this.$router.push({
+    //   name:"home"
+    // })
   }
 }
 </script>

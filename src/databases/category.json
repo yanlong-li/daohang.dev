@@ -14,7 +14,7 @@
   {
     "title": "开发工具",
     "id": 3,
-    "icon": "el-icon-setting",
+    "icon": "icon-third-tools-",
     "route": "/category/tools"
   },
   {
@@ -26,18 +26,18 @@
   {
     "title": "网络资源",
     "id": 5,
-    "icon": "el-icon-finished",
+    "icon": "icon-third-resource_icon",
     "route": "/category/resource"
   },
   {
     "title": "求职招聘",
-    "icon": "el-icon-finished",
+    "icon": "icon-third-zhaopinzhongxin",
     "route": "/category/hr"
   },
   {
     "title": "代码管理",
     "id": 5,
-    "icon": "el-icon-finished",
+    "icon": "icon-third-code",
     "route": "/category/code"
   }
 ]
