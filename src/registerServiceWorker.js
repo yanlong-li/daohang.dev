@@ -20,7 +20,7 @@ if (process.env.NODE_ENV === 'production') {
     updatefound () {
       console.log('正在下载新内容')
     },
-    updated () {
+    updated (event) {
 
       console.log('新内容可用；重新加载时生效。')
       MessageBox.confirm(
@@ -32,7 +32,21 @@ if (process.env.NODE_ENV === 'production') {
         }
       ).then(() => {
         //todo 如何清除缓存呢？
-        this.update()
+        event.waitUntil(
+          caches.keys().then(function (cacheNames) {
+            return Promise.all(
+              cacheNames.map(function (cacheName) {
+                // 如果有更新
+                // if (cacheName !== 'v1') {
+                return caches.delete(cacheName)
+                // }
+              })
+            )
+          })
+            .then(function () {
+              return self.clients.claim()
+            })
+        )
       }).catch(res => res)
     },
     offline () {
