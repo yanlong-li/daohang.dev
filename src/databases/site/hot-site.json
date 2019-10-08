@@ -1,5 +1,20 @@
 [
   {
+    "title": "搜索",
+    "children": [
+      {
+        "title": "Google",
+        "description": "众所周知的404网站",
+        "site": "https://www.google.com"
+      },
+      {
+        "title": "百度",
+        "description": "全球最大的中文搜索引擎",
+        "site": "https://www.baidu.com"
+      }
+    ]
+  },
+  {
     "title": "社区",
     "children": [
       {
@@ -17,7 +32,7 @@
       {
         "title": "开源中国",
         "description": "OSCHINA.NET 是目前领先的中文开源技术社区。我们传播开源的理念，推广开源项目，为 IT 开发者提供了一个发现、使用、并交流开源技术的平台",
-        "site":"https://www.oschina.net/"
+        "site": "https://www.oschina.net/"
       }
     ]
   },
@@ -53,7 +68,8 @@
         "site": "http://www.geekfan.net/",
         "logo": "",
         "description": "极客范是海量资讯的新闻服务平台,真实反映每时每刻的科技热点，在科技与人文之间寻找商业新价值，坚持以人文的视角解读科技，用专业的精神剖析时代，孜孜不倦探索科技与商业的未来。"
-      },{
+      },
+      {
         "title": "IT之家",
         "site": "https://www.ithome.com/",
         "description": "IT之家，青岛软媒旗下，IT科技门户网站。快速精选IT新闻，实时报道科技周边，关注苹果iOS、谷歌Android、微软Windows Phone，紧盯iPhone/iPad、安卓智能设备、WP手机等数码潮流。技术资讯、攻略教程、资源下载 - IT人的生活，尽在IT之家，爱IT，爱这里。"
