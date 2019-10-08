@@ -46,5 +46,11 @@
     "title": "分享推广",
     "icon": "el-icon-share",
     "route": "/category/share"
+  },
+  {
+    "id": 9,
+    "title": "友情链接",
+    "icon": "icon-third-link",
+    "route": "/category/link"
   }
 ]

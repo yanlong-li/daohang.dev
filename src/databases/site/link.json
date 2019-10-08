@@ -1,0 +1,15 @@
+[
+  {
+    "title": "友情链接①",
+    "children": [
+      {
+        "title": "烟笼里",
+        "description": "个人博客",
+        "site": "https://blog.yanlongli.com"
+      }
+    ]
+  },
+  {
+    "title": "赞助链接②"
+  }
+]

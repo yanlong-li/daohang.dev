@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "499225",
+      "name": "link",
+      "font_class": "link",
+      "unicode": "e94c",
+      "unicode_decimal": 59724
+    },
+    {
+      "icon_id": "887938",
+      "name": "share",
+      "font_class": "share",
+      "unicode": "e6ca",
+      "unicode_decimal": 59082
+    },
+    {
       "icon_id": "1831579",
       "name": "招聘中心",
       "font_class": "zhaopinzhongxin",
