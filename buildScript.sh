@@ -11,9 +11,9 @@ if [ ! -d "$logBuildPath" ]; then
     mkdir -p $logBuildPath
 fi
 echo "更新依赖"
-npm install >$logUpdatePath/$logDate.log
+npm install
 echo "编译项目"
-npm run build >$logBuildPath/$logDate.log
+npm run build
 echo "设置权限"
 chown -R www:www dist/[^.]*
 echo "运行结束"
