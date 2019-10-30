@@ -46,6 +46,13 @@
       "font_class": "tools-",
       "unicode": "e780",
       "unicode_decimal": 59264
+    },
+    {
+      "icon_id": "10721313",
+      "name": "通知",
+      "font_class": "tongzhi",
+      "unicode": "e632",
+      "unicode_decimal": 58930
     }
   ]
 }
