@@ -11,12 +11,12 @@
                 <el-link @click="toPage('team')">团队</el-link>
             </el-col>
             <el-col :span="3">
-                <el-link>About 非零互娱</el-link>
+                <el-link @click="toPage('about')">About 非零互娱</el-link>
             </el-col>
             <el-col :span="3">
                 <el-dropdown trigger="click">
                   <span class="el-dropdown-link">
-                    更多网站<i class="el-icon-arrow-up el-icon--right"></i>
+                    更多网站<i class="el-icon-arrow-up el-icon--right"/>
                   </span>
                     <el-dropdown-menu slot="dropdown">
                         <el-dropdown-item>Chat</el-dropdown-item>
@@ -31,25 +31,25 @@
 </template>
 
 <script>
-  export default {
-    name: 'Footer',
-    methods: {
-      toPage (name) {
-        console.log(name)
-        this.$router.push({
-          name: name ? name : 'home'
-        }).catch(res => {
-          const h = this.$createElement
-          this.$message({
-            message: h('p', null, [
-              h('span', null, '当前已经处于首页啦 '),
-              h('i', { style: 'color: teal' }, 'lalalalala')
-            ])
-          })
+export default {
+  name: 'Footer',
+  methods: {
+    toPage (name) {
+      console.log(name)
+      this.$router.push({
+        name: name || 'home'
+      }).catch(res => {
+        const h = this.$createElement
+        this.$message({
+          message: h('p', null, [
+            h('span', null, '当前已经处于首页啦 '),
+            h('i', { style: 'color: teal' }, 'lalalalala')
+          ])
         })
-      }
+      })
     }
   }
+}
 </script>
 
 <style scoped lang="scss">

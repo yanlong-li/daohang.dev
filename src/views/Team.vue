@@ -8,20 +8,20 @@
 </template>
 
 <script>
-  export default {
-    name: 'Team',
-    data(){
-      return {
-        teamer:[
-          {
-            nickname:"Yanlongli",
-            email:"ahlyl94@gmail.com",
-            blog:"https://blog.yanlongli.com"
-          }
-        ]
-      }
+export default {
+  name: 'Team',
+  data () {
+    return {
+      teamer: [
+        {
+          nickname: 'Yanlongli',
+          email: 'ahlyl94@gmail.com',
+          blog: 'https://blog.yanlongli.com'
+        }
+      ]
     }
   }
+}
 </script>
 
 <style scoped lang="scss">

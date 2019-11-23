@@ -11,21 +11,30 @@
 </template>
 
 <script>
-  export default {
-    name: 'PrivacyProtocol',
-    methods: {
-      goBack () {
-        console.log('go back')
-      }
+export default {
+  name: 'PrivacyProtocol',
+  methods: {
+    goBack () {
+      console.log('go back')
     }
   }
+}
 </script>
 
 <style scoped lang="scss">
     #privacy-protocol {
+        .title{
+            margin-bottom: 30px;
+        }
         .content {
             text-align: left;
             text-indent: 2rem;
+            h1{
+                margin: 10px;
+            }
+            p{
+                margin: 20px;
+            }
         }
     }
 </style>

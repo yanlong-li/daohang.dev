@@ -7,7 +7,7 @@
             <el-col :span="3" :offset="18">
                 <el-dropdown trigger="click">
                   <span class="el-dropdown-link">
-                    更多网站<i class="el-icon-arrow-down el-icon--right"></i>
+                    更多网站<i class="el-icon-arrow-down el-icon--right"/>
                   </span>
                     <el-dropdown-menu slot="dropdown">
                         <el-dropdown-item><el-link href="https://chat.daohang.dev" target="_blank">Chat</el-link></el-dropdown-item>
@@ -32,7 +32,7 @@ export default {
     toPage (name) {
       console.log(name)
       this.$router.push({
-        name: name ? name : 'home'
+        name: name || 'home'
       }).catch(res => {
         const h = this.$createElement
         this.$message({

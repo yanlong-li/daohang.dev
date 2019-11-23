@@ -58,7 +58,7 @@ export default {
       // if (this.category === 'hot-site') {
       //   this.activeTab = '0'
       // } else {
-        this.activeTab = '0'
+      this.activeTab = '0'
       // }
     }
   },

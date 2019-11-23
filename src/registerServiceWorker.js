@@ -21,7 +21,6 @@ if (process.env.NODE_ENV === 'production') {
       console.log('正在下载新内容')
     },
     updated (event) {
-
       console.log('新内容可用；重新加载时生效。')
       MessageBox.confirm(
         '有新的更新啦！重新启动后生效。',
