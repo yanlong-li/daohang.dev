@@ -288,5 +288,35 @@
         "site": "https://1password.com"
       }
     ]
+  },
+  {
+    "title": "数据库",
+    "children": [
+      {
+        "title": "MySQL",
+        "description": "MySQL 是最流行的关系型数据库管理系统，在 WEB 应用方面 MySQL 是最好的 RDBMS(Relational Database Management System：关系数据库管理系统)应用软件之一。"
+      },
+      {
+        "title": "SQLite",
+        "description": "SQLite 是一个软件库，实现了自给自足的、无服务器的、零配置的、事务性的 SQL 数据库引擎。SQLite 是在世界上最广泛部署的 SQL 数据库引擎。SQLite 源代码不受版权限制。"
+      },
+      {
+        "title": "PostgreSQL",
+        "description": "PostgreSQL 是一个免费的对象-关系数据库服务器(ORDBMS)，在灵活的BSD许可证下发行。"
+      }
+    ]
+  },
+  {
+    "title": "缓存",
+    "children": [
+      {
+        "title": "Redis",
+        "description": "Redis是一个开源的使用ANSI C语言编写、遵守BSD协议、支持网络、可基于内存亦可持久化的日志型、Key-Value数据库，并提供多种语言的API。"
+      },
+      {
+        "title": "Memcached",
+        "description": "Memcached是一个自由开源的，高性能，分布式内存对象缓存系统。"
+      }
+    ]
   }
 ]
