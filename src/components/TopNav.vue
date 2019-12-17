@@ -10,6 +10,7 @@
                     更多网站<i class="el-icon-arrow-down el-icon--right"/>
                   </span>
                     <el-dropdown-menu slot="dropdown">
+                        <el-dropdown-item><el-link href="https://trans.daohang.dev" target="_blank">全球互译-预览版</el-link></el-dropdown-item>
                         <el-dropdown-item><el-link href="https://chat.daohang.dev" target="_blank">Chat-预览版</el-link></el-dropdown-item>
                         <el-dropdown-item><el-link href="https://bbs.daohang.dev" target="_blank">社区论坛</el-link></el-dropdown-item>
                         <el-dropdown-item><el-link href="https://blog.yanlongli.com" target="_blank">作者Blog</el-link></el-dropdown-item>

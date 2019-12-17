@@ -3,8 +3,14 @@
     "title": "最新资讯",
     "children": [
       {
-        "title": "封杀NPP++",
-        "description": "关于Notepad++在2019-10-29发布一则诋毁中国新闻，已经深深触及中国开发者底线。Npp曾多次发表不实言论和散播恶意信息等诋毁中国行为。"
+        "title": "全球互译",
+        "description": "最近发现有很多项目缺少本地化语言，而又很少又这样的社区，于是创建此项目。",
+        "site": "https://trans.daohang.dev"
+      },
+      {
+        "title": "HelloWorld",
+        "description": "HelloWorld 是一款面向全球的聊天平台",
+        "site": "https://chat.daohang.dev"
       }
     ]
   },
@@ -12,8 +18,8 @@
     "title": "公告列表",
     "children": [
       {
-        "title": "封杀NPP++",
-        "description": "关于Notepad++在2019-10-29发布一则诋毁中国新闻，已经深深触及中国开发者底线。Npp曾多次发表不实言论和散播恶意信息等诋毁中国行为。"
+        "title": "全球互译",
+        "description": "最近发现有很多项目缺少本地化语言，而又很少又这样的社区，于是创建此项目。"
       }
     ]
   }
