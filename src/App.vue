@@ -1,45 +1,12 @@
 <template>
-    <div id="app">
-        <el-container>
-            <el-header>
-                <TopNav></TopNav>
-            </el-header>
-            <el-container>
-                <el-aside>
-                    <AsideNav></AsideNav>
-                </el-aside>
-                <el-container>
-                    <el-main>
-                        <router-view></router-view>
-                    </el-main>
-                </el-container>
-            </el-container>
-            <el-footer>
-                <Footer></Footer>
-            </el-footer>
-        </el-container>
+  <div id="app">
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
     </div>
+    <router-view/>
+  </div>
 </template>
-
-<script>
-import TopNav from './components/TopNav'
-import Footer from './components/Footer'
-import AsideNav from './components/AsideNav'
-
-export default {
-  name: 'app',
-  components: {
-    TopNav,
-    Footer,
-    AsideNav
-  },
-  created () {
-    // this.$router.push({
-    //   name:"home"
-    // })
-  }
-}
-</script>
 
 <style scoped lang="scss">
     #app {
