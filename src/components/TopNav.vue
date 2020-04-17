@@ -1,10 +1,10 @@
 <template>
     <div class="topNav">
         <el-row>
-            <el-col :span="3">
+            <el-col :span="12">
                 <div class="nav" @click="toPage('home')">开发者导航</div>
             </el-col>
-            <el-col :span="3" :offset="18">
+            <el-col :span="12" :offset="0">
                 <el-dropdown trigger="click">
                   <span class="el-dropdown-link">
                     更多网站<i class="el-icon-arrow-down el-icon--right"/>

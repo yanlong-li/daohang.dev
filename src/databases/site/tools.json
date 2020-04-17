@@ -9,6 +9,11 @@
         "site": "http://tool.chinaz.com/"
       },
       {
+        "title": "在线工具",
+        "description": "包含各种工具，看了你就知道",
+        "site": "https://tool.lu/"
+      },
+      {
         "title": "SafeInCloud",
         "description": "我目前正在用的一款密码管理工具，作为程序员经常性注册各个平台的账户寻找资源，时间多了不太好管理。用过1Password很好用就是太贵，这个软件体验上也不差。IOS版收费30元，PC和安卓都是免费。支持谷歌验证器，支持网盘同步再也不用担心手机丢失或者重装系统丢失了。",
         "site": "https://www.safe-in-cloud.com/en/"
@@ -119,6 +124,16 @@
         "title": "PostMan",
         "description": "专业版模拟HTTP请求工具,模拟发送HTTP协议的POST或GET请求,支持设置各项参数",
         "site": "https://www.getpostman.com/"
+      },
+      {
+        "title": "CodePen",
+        "description": "一个在线代码编辑器、学习环境和社区，用于使用HTML、CSS和JavaScript代码片段、项目和web应用程序进行前端web开发。",
+        "site": "https://codepen.io/"
+      },
+      {
+        "title": "代码在线运行",
+        "description": "支持 PHP、Java、C、C++、Python、NodeJS、Lua、Bash、Groovy 等语言在线运行",
+        "site": "https://tool.lu/coderunner/"
       },
       {
         "title": "MD5解密",

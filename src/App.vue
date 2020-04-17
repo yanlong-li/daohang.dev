@@ -5,9 +5,7 @@
         <TopNav></TopNav>
       </el-header>
       <el-container>
-        <el-aside>
-          <AsideNav></AsideNav>
-        </el-aside>
+        <AsideNav></AsideNav>
         <el-container>
           <el-main>
             <router-view></router-view>
@@ -22,23 +20,23 @@
 </template>
 
 <script>
-  import TopNav from './components/TopNav'
-  import Footer from './components/Footer'
-  import AsideNav from './components/AsideNav'
+import TopNav from './components/TopNav'
+import Footer from './components/Footer'
+import AsideNav from './components/AsideNav'
 
-  export default {
-    name: 'app',
-    components: {
-      TopNav,
-      Footer,
-      AsideNav
-    },
-    created () {
-      // this.$router.push({
-      //   name:"home"
-      // })
-    }
+export default {
+  name: 'app',
+  components: {
+    TopNav,
+    Footer,
+    AsideNav
+  },
+  created () {
+    // this.$router.push({
+    //   name:"home"
+    // })
   }
+}
 </script>
 
 <style scoped lang="scss">
@@ -47,6 +45,8 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
+    min-width: 100vw;
+    min-height: 100vh;
     /*color: #2c3e50;*/
 
     .el-header {
@@ -102,6 +102,6 @@
   }
 
   body {
-    min-width: 1366px;
+    /*min-width: 1366px;*/
   }
 </style>

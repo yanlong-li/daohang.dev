@@ -14,6 +14,21 @@
         "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/typescript.png"
       },
       {
+        "title": "NodeJS",
+        "site": [
+          {
+          "site": "http://nodejs.cn/",
+          "title": "中文网"
+          },
+          {
+            "site": "https://nodejs.org/",
+            "title": "官网"
+          }
+        ],
+        "logo": "https://nodejs.org/static/images/logo.svg",
+        "description": "Node.js 是一个基于 V8 JavaScript 引擎构建的 JavaScript 运行时。"
+      },
+      {
         "title": "JavaScript",
         "description": "JavaScript 是互联网上最流行的脚本语言，这门语言可用于 HTML 和 web，更可广泛用于服务器、PC、笔记本电脑、平板电脑和智能手机等设备。",
         "site": "https://www.runoob.com/js/js-tutorial.html"
@@ -56,6 +71,21 @@
         "title": "Lua",
         "description": "Lua 是一种轻量小巧的脚本语言，用标准C语言编写并以源代码形式开放， 其设计目的是为了嵌入应用程序中，从而为应用程序提供灵活的扩展和定制功能。",
         "site": "https://www.runoob.com/lua/lua-tutorial.html"
+      },
+      {
+        "site": [
+          {
+            "title": "中文网",
+            "site": "https://graphql.org.cn/"
+          },
+          {
+            "title": "官网",
+            "site": "https://graphql.org/"
+          }
+        ],
+        "logo": "https://lh3.googleusercontent.com/7bFIHPGsiyqOiFtlIL9swQM9IiWDd0VABo9hwsgOkTh13Pw2ZSCK-99rZOnoiIvtSY79hVjZkLQ0eXKq1knWJuxfWx6QCRnczyf02Q=w800",
+        "title": "GraphQL",
+        "description": "GraphQL是一门为API和运行时而生的查询语言。它可以使用您已有的数据对这些查询进行填充。 GraphQL在您的API中，提供了一个完整的，易于理解的数据描述， 可以给予您的客户端一个权利，可以精确地描述他们所需要的数据，并不拖泥带水。 随着时间的推移，使得API的进化更加容易，并且开启强大的开发者工具。"
       }
     ]
   },
@@ -90,12 +120,13 @@
   },
   {
     "title": "PHP框架",
-    "tips": "laravel 6.0已经发布，还不来？因为ThinkPHP6.0也处于开发者预览阶段了。",
+    "tips": "laravel 7.6.0已经发布，还不来？",
     "children": [
       {
-        "title": "Laravel中文站",
+        "title": "Laravel",
         "description": "Laravel是一套简洁、优雅的PHP Web开发框架(PHP Web Framework)。它可以让你从面条一样杂乱的代码中解脱出来；它可以帮你构建一个完美的网络APP，而且每行代码都可以简洁、富于表达力。",
-        "site": "https://learnku.com/laravel"
+        "site": "https://learnku.com/laravel",
+        "siteTitle": "Laravel中文网"
       },
       {
         "title": "ThinkPHP",
@@ -170,6 +201,12 @@
         "description": "Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库,支持Vue、Angular、React。",
         "logo": "/img/site/element.svg",
         "site": "https://element.eleme.cn"
+      },
+      {
+        "title": "Ant",
+        "description": "antd 是基于 Ant Design 设计体系的 React UI 组件库，主要用于研发企业级中后台产品。",
+        "logo": "https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg",
+        "site": "https://ant.design/"
       }
     ]
   }
