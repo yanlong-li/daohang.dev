@@ -5,6 +5,8 @@
         </div>
         <div class="subtitle">
             啊偶~，恭喜你发现新大陆。
+            <br>
+            {{$route.fullPath}}
         </div>
     </div>
 </template>
