@@ -2,7 +2,7 @@
     <div class="topNav">
         <el-row>
             <el-col :span="12">
-                <div class="nav" @click="toPage('home')">开发者导航</div>
+                <div class="nav" @click="toPage()">开发者导航</div>
             </el-col>
             <el-col :span="12" :offset="0">
                 <el-dropdown trigger="click">
@@ -31,19 +31,8 @@ export default {
     }
   },
   methods: {
-    toPage (name) {
-      console.log(name)
-      this.$router.push({
-        name: name || 'home'
-      }).catch(res => {
-        const h = this.$createElement
-        this.$message({
-          message: h('p', null, [
-            h('span', null, '当前已经处于首页啦 '),
-            h('i', { style: 'color: teal' }, 'lalalalala')
-          ])
-        })
-      })
+    toPage () {
+     window.location.hash = "";
     },
     handleSelect (key, keyPath) {
       console.log(key, keyPath)

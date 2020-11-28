@@ -3,60 +3,1371 @@
     "title": "热门网站",
     "id": 1,
     "icon": "el-icon-collection-tag",
-    "route": "/category/hot-site"
+    "key": "hot-site",
+    "children": [
+      {
+        "title": "搜索",
+        "children": [
+          {
+            "title": "Google",
+            "description": "众所周知的404网站",
+            "site": "https://www.google.com"
+          },
+          {
+            "title": "百度",
+            "description": "全球最大的中文搜索引擎",
+            "site": "https://www.baidu.com"
+          }
+        ]
+      },
+      {
+        "title": "社区",
+        "children": [
+          {
+            "title": "GITHUB",
+            "site": "https://www.github.com",
+            "logo": "/img/site/github.png",
+            "description": "使用GitHub的API，Jekyll和GitHub Pages快速创建您的个人开发者网站。"
+          },
+          {
+            "title": "知乎",
+            "site": "https://www.zhihu.com/",
+            "logo": "",
+            "description": "有问题，上知乎。知乎，可信赖的问答社区，以让每个人高效获得可信赖的解答为使命。知乎凭借认真、专业和友善的社区氛围，结构化、易获得的优质内容，基于问答的内容生产方式和独特的社区机制，吸引、聚集了各行各业中大量的亲历者、内行人、领域专家、领域爱好者，将高质量的内容透过人的节点来成规模地生产和分享。用户通过问答等交流方式建立信任和连接，打造和提升个人影响力，并发现、获得新机会。"
+          },
+          {
+            "title": "开源中国",
+            "description": "OSCHINA.NET 是目前领先的中文开源技术社区。我们传播开源的理念，推广开源项目，为 IT 开发者提供了一个发现、使用、并交流开源技术的平台",
+            "site": "https://www.oschina.net/"
+          }
+        ]
+      },
+      {
+        "title": "新闻资讯",
+        "children": [
+          {
+            "title": "知乎",
+            "site": "https://www.zhihu.com/",
+            "logo": "",
+            "description": "有问题，上知乎。知乎，可信赖的问答社区，以让每个人高效获得可信赖的解答为使命。知乎凭借认真、专业和友善的社区氛围，结构化、易获得的优质内容，基于问答的内容生产方式和独特的社区机制，吸引、聚集了各行各业中大量的亲历者、内行人、领域专家、领域爱好者，将高质量的内容透过人的节点来成规模地生产和分享。用户通过问答等交流方式建立信任和连接，打造和提升个人影响力，并发现、获得新机会。"
+          },
+          {
+            "title": "虎嗅",
+            "site": "https://www.huxiu.com/",
+            "logo": "",
+            "description": "聚合优质的创新信息与人群，捕获精选|深度|犀利的商业科技资讯。在虎嗅，不错过互联网的每个重要时刻。"
+          },
+          {
+            "title": "36氪",
+            "site": "https://36kr.com/",
+            "logo": "",
+            "description": "36氪为您提供创业资讯、科技新闻、投融资对接、股权投资、极速融资等创业服务，致力成为创业者可以依赖的创业服务平台，为创业者提供最好的产品和服务。"
+          },
+          {
+            "title": "开发者头条",
+            "site": "http://toutiao.io/",
+            "logo": "",
+            "description": "阅读头条新闻、分享技术文章、发布开源项目，订阅技术极客/技术团队开通的独家号/团队号和关注编程牛人。"
+          },
+          {
+            "title": "极客范",
+            "site": "http://www.geekfan.net/",
+            "logo": "",
+            "description": "极客范是海量资讯的新闻服务平台,真实反映每时每刻的科技热点，在科技与人文之间寻找商业新价值，坚持以人文的视角解读科技，用专业的精神剖析时代，孜孜不倦探索科技与商业的未来。"
+          },
+          {
+            "title": "IT之家",
+            "site": "https://www.ithome.com/",
+            "description": "IT之家，青岛软媒旗下，IT科技门户网站。快速精选IT新闻，实时报道科技周边，关注苹果iOS、谷歌Android、微软Windows Phone，紧盯iPhone/iPad、安卓智能设备、WP手机等数码潮流。技术资讯、攻略教程、资源下载 - IT人的生活，尽在IT之家，爱IT，爱这里。"
+          }
+        ]
+      },
+      {
+        "title": "我爱学习",
+        "children": [
+          {
+            "title": "GITHUB",
+            "site": "https://www.github.com",
+            "logo": "/img/site/github.png",
+            "description": "使用GitHub的API，Jekyll和GitHub Pages快速创建您的个人开发者网站。"
+          }
+        ]
+      },
+      {
+        "title": "源码托管",
+        "children": [
+          {
+            "title": "G码云",
+            "site": "https://gitee.com/",
+            "logo": "/img/site/gitee.jpg",
+            "description": "码云(gitee.com)是 OSCHINA.NET 推出的代码托管平台，支持 Git 和 SVN，提供免费的私有仓库托管。目前已有超过 350 万的开发者选择码云。"
+          },
+          {
+            "title": "GITHUB",
+            "site": "https://www.github.com",
+            "logo": "/img/site/github.png",
+            "description": "使用GitHub的API，Jekyll和GitHub Pages快速创建您的个人开发者网站。"
+          }
+        ]
+      },
+      {
+        "title": "开发工具",
+        "children": [
+          {
+            "title": "JetBrains",
+            "site": "https://jetbrains.dev/",
+            "logo": "/img/site/jetbrains.png",
+            "description": "无论您使用何种技术，JetBrains都能创建软件解决方案，使开发人员的工作效率更高。"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "编程语言",
     "id": 2,
     "icon": "el-icon-edit",
-    "route": "/category/lang"
+    "key": "lang",
+    "children": [
+      {
+        "title": "热门语言",
+        "children": [
+          {
+            "title": "Go",
+            "site": "https://golang.google.cn/",
+            "logo": "/img/site/golang.jpg",
+            "description": "Go是一种开源编程语言，可以轻松构建 简单，可靠，高效的软件。"
+          },
+          {
+            "title": "TypeScript",
+            "description": "TypeScript 是 JavaScript 的超集，扩展了 JavaScript 的语法，因此现有的 JavaScript 代码可与 TypeScript 一起工作无需任何修改，TypeScript 通过类型注解提供编译时的静态类型检查。\n\nTypeScript 可处理已有的 JavaScript 代码，并只对其中的 TypeScript 代码进行编译。",
+            "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/typescript.png"
+          },
+          {
+            "title": "NodeJS",
+            "site": [
+              {
+                "site": "http://nodejs.cn/",
+                "title": "中文网"
+              },
+              {
+                "site": "https://nodejs.org/",
+                "title": "官网"
+              }
+            ],
+            "logo": "https://nodejs.org/static/images/logo.svg",
+            "description": "Node.js 是一个基于 V8 JavaScript 引擎构建的 JavaScript 运行时。"
+          },
+          {
+            "title": "JavaScript",
+            "description": "JavaScript 是互联网上最流行的脚本语言，这门语言可用于 HTML 和 web，更可广泛用于服务器、PC、笔记本电脑、平板电脑和智能手机等设备。",
+            "site": "https://www.runoob.com/js/js-tutorial.html"
+          },
+          {
+            "title": "Java",
+            "description": "Java是由Sun Microsystems公司于1995年5月推出的Java面向对象程序设计语言和Java平台的总称。由James Gosling和同事们共同研发，并在1995年正式推出。",
+            "site": "https://www.runoob.com/java/java-intro.html"
+          },
+          {
+            "title": "PHP",
+            "logo": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1569651979&di=8c58d23a580d1f28e47d72488211230a&imgtype=jpg&er=1&src=http%3A%2F%2Fp2.qhimg.com%2Ft0161159ea8ac88d849.jpg",
+            "description": "PHP 是免费的， 是一种创建动态交互性站点的强有力的服务器端脚本语言, 并且使用非常广泛。PHP（全称：PHP：Hypertext Preprocessor，即\"PHP：超文本预处理器\"）是一种通用开源脚本语言。",
+            "site": "https://php.net"
+          },
+          {
+            "title": "C",
+            "description": "C 语言是一种通用的高级语言，最初是由丹尼斯·里奇在贝尔实验室为开发 UNIX 操作系统而设计的。C 语言最开始是于 1972 年在 DEC PDP-11 计算机上被首次实现。\n\n在 1978 年，布莱恩·柯林汉（Brian Kernighan）和丹尼斯·里奇（Dennis Ritchie）制作了 C 的第一个公开可用的描述，现在被称为 K&R 标准。\n\nUNIX 操作系统，C编译器，和几乎所有的 UNIX 应用程序都是用 C 语言编写的。由于各种原因，C 语言现在已经成为一种广泛使用的专业语言。",
+            "site": "https://www.runoob.com/cprogramming/c-tutorial.html"
+          },
+          {
+            "title": "C++",
+            "description": "C++ 是一种中级语言，它是由 Bjarne Stroustrup 于 1979 年在贝尔实验室开始设计开发的。C++ 进一步扩充和完善了 C 语言，是一种面向对象的程序设计语言。C++ 可运行于多种平台上，如 Windows、MAC 操作系统以及 UNIX 的各种版本。",
+            "site": "https://www.runoob.com/cplusplus/cpp-tutorial.html"
+          },
+          {
+            "title": "Python",
+            "description": "Python 是一个高层次的结合了解释性、编译性、互动性和面向对象的脚本语言。\n\nPython 的设计具有很强的可读性，相比其他语言经常使用英文关键字，其他语言的一些标点符号，它具有比其他语言更有特色语法结构。",
+            "site": "https://www.python.org/"
+          },
+          {
+            "title": "C# .NET",
+            "description": "C# 是一个现代的、通用的、面向对象的编程语言，它是由微软（Microsoft）开发的，由 Ecma 和 ISO 核准认可的。\n\nC# 是由 Anders Hejlsberg 和他的团队在 .Net 框架开发期间开发的。\n\nC# 是专为公共语言基础结构（CLI）设计的。CLI 由可执行代码和运行时环境组成，允许在不同的计算机平台和体系结构上使用各种高级语言。",
+            "site": "https://www.runoob.com/csharp/csharp-tutorial.html"
+          },
+          {
+            "title": ".NET Core"
+          },
+          {
+            "title": "Lua",
+            "description": "Lua 是一种轻量小巧的脚本语言，用标准C语言编写并以源代码形式开放， 其设计目的是为了嵌入应用程序中，从而为应用程序提供灵活的扩展和定制功能。",
+            "site": "https://www.runoob.com/lua/lua-tutorial.html"
+          },
+          {
+            "site": [
+              {
+                "title": "中文网",
+                "site": "https://graphql.org.cn/"
+              },
+              {
+                "title": "官网",
+                "site": "https://graphql.org/"
+              }
+            ],
+            "logo": "https://lh3.googleusercontent.com/7bFIHPGsiyqOiFtlIL9swQM9IiWDd0VABo9hwsgOkTh13Pw2ZSCK-99rZOnoiIvtSY79hVjZkLQ0eXKq1knWJuxfWx6QCRnczyf02Q=w800",
+            "title": "GraphQL",
+            "description": "GraphQL是一门为API和运行时而生的查询语言。它可以使用您已有的数据对这些查询进行填充。 GraphQL在您的API中，提供了一个完整的，易于理解的数据描述， 可以给予您的客户端一个权利，可以精确地描述他们所需要的数据，并不拖泥带水。 随着时间的推移，使得API的进化更加容易，并且开启强大的开发者工具。"
+          }
+        ]
+      },
+      {
+        "title": "跨平台",
+        "children": [
+          {
+            "title": "Flutter",
+            "logo": "/img/site/flutter.png",
+            "description": "Laravel是一套简洁、优雅的PHP Web开发框架(PHP Web Framework)。它可以让你从面条一样杂乱的代码中解脱出来；它可以帮你构建一个完美的网络APP，而且每行代码都可以简洁、富于表达力。",
+            "site": "https://learnku.com/laravel"
+          },
+          {
+            "title": "Angular",
+            "logo": "/img/site/angular.jpg",
+            "description": "学会用 Angular 构建应用，然后把这些代码和能力复用在多种多种不同平台的应用上 —— Web、移动 Web、移动应用、原生应用和桌面原生应用。",
+            "site": "https://angular.cn/"
+          },
+          {
+            "title": "React",
+            "logo": "/img/site/react.png",
+            "description": "用于构建用户界面的 JavaScript 库",
+            "site": "https://www.reactjscn.com/"
+          },
+          {
+            "title": "Electron",
+            "logo": "/img/site/electron.png",
+            "description": "使用 JavaScript, HTML 和 CSS 构建跨平台的桌面应用",
+            "site": "http://electronjs.org/"
+          }
+        ]
+      },
+      {
+        "title": "PHP框架",
+        "tips": "",
+        "children": [
+          {
+            "title": "Laravel",
+            "description": "Laravel是一套简洁、优雅的PHP Web开发框架(PHP Web Framework)。它可以让你从面条一样杂乱的代码中解脱出来；它可以帮你构建一个完美的网络APP，而且每行代码都可以简洁、富于表达力。",
+            "site": "https://learnku.com/laravel",
+            "siteTitle": "Laravel中文网"
+          },
+          {
+            "title": "ThinkPHP",
+            "description": "ThinkPHP是一个免费开源的，快速、简单的面向对象的轻量级PHP开发框架，是为了敏捷WEB应用开发和简化企业应用开发而诞生的。",
+            "site": "http://www.thinkphp.cn/"
+          },
+          {
+            "title": "CodeIgniter",
+            "description": "CodeIgniter 是一个小巧但功能强大的 PHP 框架，作为一个简单而“优雅”的工具包，它可以为开发者们建立功能完善的 Web 应用程序。",
+            "site": "https://codeigniter.org.cn/"
+          },
+          {
+            "title": "Yii",
+            "description": "Yii 是一个 高性能 的，适用于开发 WEB 2.0 应用的 PHP 框架。",
+            "site": "https://www.yiichina.com/"
+          },
+          {
+            "title": "Symphony2",
+            "description": "Symphony2 是一个开源内容管理系统",
+            "site": "http://www.getsymphony.com/"
+          },
+          {
+            "title": "zendframwork",
+            "description": "功能非常的强大，是一个重量级的框架，ZF 用 100% 面向对象编码实现。 ZF 的组件结构独一无二，每个组件几乎不依靠其他组件。这样的松耦合结构可以让开发者独立使用组件。",
+            "site": ""
+          }
+        ]
+      },
+      {
+        "title": "Java框架",
+        "children": [
+          {
+            "title": "Spring",
+            "description": "Spring、SpringMVC、SpringBoot、Spring Cloud 分不清，自己看吧",
+            "site": "https://spring.io/"
+          }
+        ]
+      },
+      {
+        "title": "JS框架",
+        "children": [
+          {
+            "title": "Vue",
+            "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/vuejs.png",
+            "description": "The Progressive\nJavaScript Framework",
+            "site": "https://vuejs.org/"
+          },
+          {
+            "title": "React",
+            "logo": "/img/site/react.png",
+            "description": "用于构建用户界面的 JavaScript 库",
+            "site": "https://www.reactjscn.com/"
+          },
+          {
+            "title": "Angular",
+            "logo": "/img/site/angular.jpg",
+            "description": "学会用 Angular 构建应用，然后把这些代码和能力复用在多种多种不同平台的应用上 —— Web、移动 Web、移动应用、原生应用和桌面原生应用。",
+            "site": "https://www.reactjscn.com/"
+          }
+        ]
+      },
+      {
+        "title": "Css 框架",
+        "children": [
+          {
+            "title": "Bootstrap",
+            "description": "简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。",
+            "site": "https://www.bootcss.com/"
+          },
+          {
+            "title": "Element UI",
+            "description": "Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库,支持Vue、Angular、React。",
+            "logo": "/img/site/element.svg",
+            "site": "https://element.eleme.cn"
+          },
+          {
+            "title": "Ant",
+            "description": "antd 是基于 Ant Design 设计体系的 React UI 组件库，主要用于研发企业级中后台产品。",
+            "logo": "https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg",
+            "site": "https://ant.design/"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "开发工具",
     "id": 3,
     "icon": "icon-third-tools-",
-    "route": "/category/tools"
+    "key": "tools",
+    "children": [
+      {
+        "title": "热门工具",
+        "children": [
+          {
+            "title": "站长工具",
+            "logo": "https://csstools.chinaz.com/tools/images/public/logos/logo-index.png",
+            "description": "站长必备的建站工具大全",
+            "site": "http://tool.chinaz.com/"
+          },
+          {
+            "title": "在线工具",
+            "description": "包含各种工具，看了你就知道",
+            "site": "https://tool.lu/"
+          },
+          {
+            "title": "SafeInCloud",
+            "description": "我目前正在用的一款密码管理工具，作为程序员经常性注册各个平台的账户寻找资源，时间多了不太好管理。用过1Password很好用就是太贵，这个软件体验上也不差。IOS版收费30元，PC和安卓都是免费。支持谷歌验证器，支持网盘同步再也不用担心手机丢失或者重装系统丢失了。",
+            "site": "https://www.safe-in-cloud.com/en/"
+          },
+          {
+            "title": "JSON工具",
+            "description": "针对JSON的在线解析、压缩、转义、编辑多功能工具。",
+            "site": "https://www.bejson.com/"
+          },
+          {
+            "title": "PostMan",
+            "description": "专业版模拟HTTP请求工具,模拟发送HTTP协议的POST或GET请求,支持设置各项参数",
+            "site": "https://www.getpostman.com/"
+          },
+          {
+            "title": "MD5解密",
+            "description": "在线MD5解密",
+            "site": "https://www.somd5.com/"
+          },
+          {
+            "title": "URL解码",
+            "description": "在线url网址编码、解码",
+            "site": "https://www.bejson.com/enc/urlencode/"
+          },
+          {
+            "title": "UNICODE转码",
+            "description": "在线unicode转中文,中文转unicode",
+            "site": "https://www.bejson.com/convert/unicode_chinese/"
+          },
+          {
+            "title": "矢量图库",
+            "description": "来自阿里巴巴的矢量图库",
+            "site": "https://www.iconfont.cn/"
+          },
+          {
+            "title": "二维码",
+            "description": "在线生成二维码,在线解密二维码",
+            "site": "https://www.bejson.com/convert/qrcode/"
+          },
+          {
+            "title": "正则表达式",
+            "description": "在线正则表达式、正则生成、测试",
+            "site": "https://www.bejson.com/othertools/regex/"
+          },
+          {
+            "title": "Git",
+            "logo": "https://www.runoob.com/wp-content/uploads/2015/02/f7246b600c338744a9591cd7530fd9f9d62aa0f8.png",
+            "description": "Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。\n\nGit 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。\n\nGit 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。",
+            "site": "https://www.runoob.com/git/git-tutorial.html"
+          },
+          {
+            "title": "Markdown",
+            "logo": "https://www.runoob.com/wp-content/uploads/2019/03/iconfinder_markdown_298823.png",
+            "description": "Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。",
+            "site": "https://www.runoob.com/markdown/md-tutorial.html"
+          }
+        ]
+      },
+      {
+        "title": "团队协同",
+        "children": [
+          {
+            "title": "Teambition",
+            "logo": "https://dn-st.teambition.net/site/images/global/logo.svg",
+            "description": "一切工作都可以从 Teambition 开始。无论是策划活动、研发软件、制造机器人、建设发电站或者发射卫星，团队成员以更高效的协作方式，围绕目标不断创造成果。",
+            "site": "https://www.teambition.com/"
+          },
+          {
+            "title": "领歌",
+            "site": "https://www.leangoo.com"
+          },
+          {
+            "title": "墨刀",
+            "description": "专业、可靠、简洁、易懂的在线产品原型设计与协作平台",
+            "site": "https://modao.cc/"
+          },
+          {
+            "title": "蓝湖",
+            "site": "https://lanhuapp.com/"
+          },
+          {
+            "title": "泛微",
+            "site": "https://www.weaver.com.cn/"
+          },
+          {
+            "title": "worktile",
+            "site": "https://worktile.com/"
+          },
+          {
+            "title": "tower",
+            "site": "https://tower.im/"
+          }
+        ]
+      },
+      {
+        "title": "在线工具",
+        "children": [
+          {
+            "title": "站长工具",
+            "site": "http://tool.chinaz.com/"
+          },
+          {
+            "title": "JSON工具",
+            "description": "针对JSON的在线解析、压缩、转义、编辑多功能工具。",
+            "site": "https://www.bejson.com/"
+          },
+          {
+            "title": "PostMan",
+            "description": "专业版模拟HTTP请求工具,模拟发送HTTP协议的POST或GET请求,支持设置各项参数",
+            "site": "https://www.getpostman.com/"
+          },
+          {
+            "title": "CodePen",
+            "description": "一个在线代码编辑器、学习环境和社区，用于使用HTML、CSS和JavaScript代码片段、项目和web应用程序进行前端web开发。",
+            "site": "https://codepen.io/"
+          },
+          {
+            "title": "代码在线运行",
+            "description": "支持 PHP、Java、C、C++、Python、NodeJS、Lua、Bash、Groovy 等语言在线运行",
+            "site": "https://tool.lu/coderunner/"
+          },
+          {
+            "title": "MD5解密",
+            "description": "在线MD5解密",
+            "site": "https://www.somd5.com/"
+          },
+          {
+            "title": "URL解码",
+            "description": "在线url网址编码、解码",
+            "site": "https://www.bejson.com/enc/urlencode/"
+          },
+          {
+            "title": "UNICODE转码",
+            "description": "在线unicode转中文,中文转unicode",
+            "site": "https://www.bejson.com/convert/unicode_chinese/"
+          },
+          {
+            "title": "矢量图库",
+            "description": "来自阿里巴巴的矢量图库",
+            "site": "https://www.iconfont.cn/"
+          },
+          {
+            "title": "二维码",
+            "description": "在线生成二维码,在线解密二维码",
+            "site": "https://www.bejson.com/convert/qrcode/"
+          },
+          {
+            "title": "正则表达式",
+            "description": "在线正则表达式、正则生成、测试",
+            "site": "https://www.bejson.com/othertools/regex/"
+          }
+        ]
+      },
+      {
+        "title": "IDE",
+        "children": [
+          {
+            "title": "Vs Code",
+            "description": "Visual Studio代码是为构建和调试现代Web和云应用程序而重新定义和优化的代码编辑器。Visual Studio代码是免费的，可以在您最喜欢的平台（Linux、MacOS和Windows）上使用。",
+            "site": "https://code.visualstudio.com/"
+          },
+          {
+            "title": "IDEA",
+            "description": "一个有能力和符合人体工程学的Java IDE，用于企业Java、Scala、Kotlin等等。",
+            "site": "http://www.jetbrains.com/idea/"
+          },
+          {
+            "title": "Eclipse",
+            "description": "Eclipse基金会——全球社区、Eclipse IDE、Jakarta EE和超过350个开源项目，包括运行时、工具和框架。",
+            "site": "https://www.eclipse.org/"
+          },
+          {
+            "title": "PhpStorm",
+            "description": "PhpStorm 是一个完美的PHP IDE，可以与 ThinkPHP、Symfony、Laravel、WordPress、Zend Framework、CakePHP、Yii和其他框架。",
+            "site": "https://www.jetbrains.com/phpstorm/"
+          },
+          {
+            "title": "WebStorm",
+            "description": "一个功能强大的IDE，用于现代 JavaScript 开发，具有针对 JavaScript、TypeScript 和最流行的 Web 框架的代码完成和重构功能。",
+            "site": "https://www.jetbrains.com/webstorm"
+          },
+          {
+            "title": "GoLand",
+            "site": "https://www.jetbrains.com/go",
+            "description": "GoLand 是 JetBrains 的一个 IDE ，旨在为 Go 开发提供符合人体工程学的环境。"
+          },
+          {
+            "title": "PyCharm",
+            "description": " Python & Django IDE 具有智能代码完成、动态错误检查、快速修复等功能",
+            "site": "https://www.jetbrains.com/pycharm"
+          },
+          {
+            "title": "Sublime Text 3",
+            "description": "用于代码、标记和散文的复杂文本编辑器",
+            "site": "https://www.sublimetext.com/"
+          }
+        ]
+      },
+      {
+        "title": "笔记任务",
+        "children": [
+          {
+            "title": "印象笔记"
+          },
+          {
+            "title": "有道云"
+          },
+          {
+            "title": "幕布",
+            "site": "https://mubu.com/"
+          },
+          {
+            "title": "腾讯文档",
+            "site": "https://doc.qq.com/"
+          }
+        ]
+      },
+      {
+        "title": "代码仓库",
+        "children": [
+          {
+            "title": "GitEE",
+            "site": "https://www.gitee.com/"
+          },
+          {
+            "title": "GitHub",
+            "site": "https://www.github.com/"
+          },
+          {
+            "title": "GitLab",
+            "site": "https://about.gitlab.com/"
+          },
+          {
+            "title": "Coding",
+            "site": "https://coding.net/"
+          },
+          {
+            "title": "阿里云",
+            "site": "https://code.aliyun.com/"
+          }
+        ]
+      },
+      {
+        "title": "云服务",
+        "children": [
+          {
+            "title": "阿里云",
+            "site": "https://www.aliyun.com"
+          },
+          {
+            "title": "腾讯云",
+            "site": "https://cloud.tencent.com/"
+          },
+          {
+            "title": "华为云",
+            "site": "https://www.huaweicloud.com/"
+          },
+          {
+            "title": "京东云",
+            "site": "https://www.jdcloud.com/"
+          },
+          {
+            "title": "百度云",
+            "site": "https://cloud.baidu.com/"
+          },
+          {
+            "title": "AZURE",
+            "site": "https://azure.microsoft.com/zh-cn/"
+          },
+          {
+            "title": "AWS",
+            "site": "https://aws.amazon.com/cn/"
+          }
+        ]
+      },
+      {
+        "title": "密码管理",
+        "children": [
+          {
+            "title": "safe-in-cloud",
+            "description": "我目前正在用的一款密码管理工具，作为程序员经常性注册各个平台的账户寻找资源，时间多了不太好管理。用过1Password很好用就是太贵，这个软件体验上也不差。IOS版收费30元，PC和安卓都是免费。支持谷歌验证器，支持网盘同步再也不用担心手机丢失或者重装系统丢失了。",
+            "site": "https://www.safe-in-cloud.com/en/"
+          },
+          {
+            "title": "1Password",
+            "description": "市面上最好的密码管理器，唯一的缺点就是贵",
+            "site": "https://1password.com"
+          }
+        ]
+      },
+      {
+        "title": "数据库",
+        "children": [
+          {
+            "title": "MySQL",
+            "description": "MySQL 是最流行的关系型数据库管理系统，在 WEB 应用方面 MySQL 是最好的 RDBMS(Relational Database Management System：关系数据库管理系统)应用软件之一。"
+          },
+          {
+            "title": "SQLite",
+            "description": "SQLite 是一个软件库，实现了自给自足的、无服务器的、零配置的、事务性的 SQL 数据库引擎。SQLite 是在世界上最广泛部署的 SQL 数据库引擎。SQLite 源代码不受版权限制。"
+          },
+          {
+            "title": "PostgreSQL",
+            "description": "PostgreSQL 是一个免费的对象-关系数据库服务器(ORDBMS)，在灵活的BSD许可证下发行。"
+          }
+        ]
+      },
+      {
+        "title": "缓存",
+        "children": [
+          {
+            "title": "Redis",
+            "description": "Redis是一个开源的使用ANSI C语言编写、遵守BSD协议、支持网络、可基于内存亦可持久化的日志型、Key-Value数据库，并提供多种语言的API。"
+          },
+          {
+            "title": "Memcached",
+            "description": "Memcached是一个自由开源的，高性能，分布式内存对象缓存系统。"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "视频教学",
     "id": 4,
     "icon": "el-icon-video-camera",
-    "route": "/category/video"
+    "key": "video",
+    "children": [
+      {
+        "title": "教学网站",
+        "tips": "<p style='color:#F56C6C;'>没有广告费！！！</p>",
+        "children": [
+          {
+            "title": "腾讯课堂",
+            "logo": "https://8.url.cn/edu/edu_modules/edu-ui/img/bg/logo-3x.46efb146.png#unsprite",
+            "description": "腾讯课堂-腾讯推出的专业在线教育平台，聚合大量优质教育机构和名师，下设职业培训、公务员考试、托福雅思、考证考级、英语口语、中小学教育等众多在线学习精品课程，打造老师在线上课教学、学生及时互动学习的课堂。腾讯课堂，学习成就梦想！",
+            "site": "https://ke.qq.com/"
+          },
+          {
+            "title": "51CTO",
+            "logo": "https://static1.51ctocdn.cn/edu/center/images/home/logo.png",
+            "description": "51CTO学院IT职业在线教育平台是依托12年行业品牌、1400万IT技术用户建立的专业IT技能学习培训平台，已签约1000多位技术专家发布了12万个自学式实战视频教程。此外，我们还开设了辅导式微职位IT在线培训班，涵盖Python、大数据、区块链、IT考证等培训领域，随到随学、通关学习、一对一辅导，助你升职加薪。",
+            "site": "https://edu.51cto.com/"
+          },
+          {
+            "title": "CSDN",
+            "logo": "",
+            "description": "CSDN旗下在线学习学院",
+            "site": "https://edu.csdn.net/"
+          },
+          {
+            "title": "慕课网",
+            "logo": "https://www.imooc.com/static/img/index/logo.png",
+            "description": "慕课网（IMOOC）是IT技能学习平台。慕课网(IMOOC)提供了丰富的移动端开发、php开发、web前端、android开发以及html5等视频教程资源公开课。并且富有交互性及趣味性，你还可以和朋友一起编程。",
+            "site": "https://www.imooc.com/"
+          },
+          {
+            "title": "黑马程序员",
+            "logo": "/img/site/itheima.png",
+            "description": "黑马程序员专注于IT培训,Java培训,人工智能培训,Python培训,大数据培训,区块链培训,UI设计培训,PHP培训,Web前端培训,软件测试培训,产品经理培训，并提供Java培训,大数据培训,区块链培训,UI设计培训,PHP培训,软件测试培训,产品经理培训等服务。",
+            "site": "http://www.itheima.com/"
+          },
+          {
+            "title": "网易云课堂",
+            "logo": "https://edu-image.nosdn.127.net/51373455cc3e4a96a802e89387cb868c.png?imageView&quality=100",
+            "description": "网易云课堂，一个专注职业技能提升的在线学习平台。立足于实用性的要求，与多家教育培训机构和行业的专家、讲师建立合作，聚合了丰富的学习内容，包括课程、电子书、文章、短视频、音频等。平台提倡系统化的学习，旨在帮助用户获得全面的、非零散的知识和技能，实现学有所长，并能学以致用！,云课堂",
+            "site": "https://study.163.com/"
+          },
+          {
+            "title": "百度传课",
+            "logo": "https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1441584412,1373997451&fm=58&bpow=260&bpoh=260",
+            "description": "零基础学编程语言，在百度传课跟最牛的老师，学最牛的IT互联网技术，课程包括：C语言程序设计、零基础学HTML入门课、PHP入门教程，网站开发SO easy！",
+            "site": "https://chuanke.baidu.com/"
+          },
+          {
+            "title": "极客学院",
+            "logo": "https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=2550330025,3023168738&fm=58&s=0D813C7A6CAA7F202CAA5B56030010F5&bpow=121&bpoh=75",
+            "description": "极客学院作为中国专业IT职业在线教育平台,拥有海量高清IT职业课程,涵盖30+个技术领域,如Android,iOS ,Flash,Java,Python,HTML5,Swift,Cocos2dx等视频教程.根据IT在线学习特点,极客学院推出IT学习知识体系图,IT职业学习实战路径图,帮助IT学习者从零基础起步,结合IT实战案例演练,系统学习,助你快速成为IT优秀技术人才！",
+            "site": "https://www.jikexueyuan.com"
+          },
+          {
+            "title": "极客时间",
+            "logo": "data:image/png;base64,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",
+            "description": "极客时间是一款由极客邦科技倾力打造的面向IT领域的知识服务产品,旨在帮助用户提升技术认知.板块包含专栏文章、视频课程、新闻、资讯、直播、图书、商城等。内容覆盖IT从业者的全生命周期知识技能图谱,邀请左耳朵耗子、王争、杨晓峰、winter,丁奇等顶级技术和行业专家为你讲述技术本质,解读科技动态.",
+            "site": "https://time.geekbang.org/"
+          },
+          {
+            "title": "产品经理",
+            "logo": "https://image.woshipm.com/build/img/logo.png",
+            "description": "人人都是产品经理致力为产品新人、产品经理等广大产品爱好者打造一个良好的学习交流平台。深度剖析国内外互联网业内动态，分享产品设计、交互设计、视觉设计、用户体验设计、产品运营、产品市场和项目管理等专业产品知识。",
+            "site": "http://www.woshipm.com/"
+          },
+          {
+            "title": "PFinal",
+            "description": "pfinal致力于提供优质PHP中文学习资源,Laravel、Yii、CodeIgniter、CI、ThinkPHP等框架学习资源、中文视频教程、项目实战。<br/>ps:是我的导师之一",
+            "site": "http://www.pfinal.cn"
+          }
+        ]
+      },
+      {
+        "title": "培训机构",
+        "children": [
+          {
+            "title": "没给广告费"
+          },
+          {
+            "title": "你怎么这么秀"
+          },
+          {
+            "title": "lalalala"
+          }
+        ]
+      },
+      {
+        "title": "娱乐直播",
+        "children": [
+          {
+            "title": "Bilibili",
+            "site": "https://www.bilibili.com",
+            "description": "bilibili是国内知名的视频弹幕网站，这里有最及时的动漫新番，最棒的ACG氛围，最有创意的Up主。大家可以在这里找到许多欢乐。"
+          },
+          {
+            "title": "AcFun",
+            "site": "https://www.acfun.cn/",
+            "description": "AcFun是一家弹幕视频网站，致力于为每一个人带来欢乐。"
+          },
+          {
+            "title": "斗鱼",
+            "site": "https://www.douyu.com/",
+            "description": "斗鱼 - 每个人的直播平台提供高清、快捷、流畅的视频直播和游戏赛事直播服务，包含英雄联盟lol直播、穿越火线cf直播、dota2直播、美女直播等各类热门游戏赛事直播和各种名家大神游戏直播，内容丰富，推送及时，带给你不一样的视听体验，一切尽在斗鱼 - 每个人的直播平台。"
+          },
+          {
+            "title": "虎牙TV",
+            "site": "https://www.huya.com/",
+            "description": "虎牙直播是以游戏直播为主的弹幕式互动直播平台，累计注册用户2亿，提供热门游戏直播、电竞赛事直播与游戏赛事直播，手游直播等。包含王者荣耀，绝地求生，荒野行动等游戏直播，lol、dota2、dnf等热门游戏直播以及单机游戏、手游等游戏直播"
+          },
+          {
+            "title": "PandaTv",
+            "site": "https://www.panda.tv/",
+            "description": "谨以此纪念王校长的熊猫TV"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "网络资源",
     "id": 5,
     "icon": "icon-third-resource_icon",
-    "route": "/category/resource"
+    "key": "resource",
+    "children": [
+      {
+        "title": "热门资源",
+        "tips": "素材来源于互联网，本站不提供和保存任何资源。",
+        "children": [
+          {
+            "title": "矢量图库",
+            "description": "来自阿里巴巴的矢量图库",
+            "site": "https://www.iconfont.cn/"
+          },
+          {
+            "title": "UNSPLASH",
+            "description": "全球最大的无版权图片素材网站",
+            "site": "https://unsplash.com/"
+          },
+          {
+            "title": "Sketch",
+            "logo": "/img/site/sketch123-834feae744c4336-1.png",
+            "description": "Sketch素材网是一个免费的Sketch素材资源分享平台。UI设计师可以在本站找到各种免费的UI素材,Sketch设计稿,Sketch源文件，Sketch素材，Sketch资源，Sketch插件。<br/>注册邀请码：kouer91",
+            "site": "https://sketch123.com"
+          },
+          {
+            "title": "流行设备",
+            "description": "Facebook支持世界各地的不同受众以及同样多样化的设备。为了强调在我们的设计模拟中，我们重新绘制了一系列设备以显示使用我们产品的人们的全球多样性。每个设备都带有该设备的位图（带有和不带有阴影）以及该设备的原始Sketch文件。",
+            "site": "https://facebook.design/devices"
+          }
+        ]
+      },
+      {
+        "title": "Bootstrap相关优质项目推荐",
+        "tips": "<a class='el-link el-link--default is-underline' target=\"_blank\" href='https://www.bootcss.com/'>这些项目或者是对Bootstrap进行了有益的补充，或者是基于Bootstrap开发的.来源于https://www.bootcss.com/</a>",
+        "children": [
+          {
+            "title": "Webpack",
+            "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/webpack.png",
+            "description": "Webpack 是当下最热门的前端资源模块化管理和打包工具。它可以将许多松散的模块按照依赖和规则打包成符合生产环境部署的前端资源",
+            "site": "https://www.webpackjs.com/"
+          },
+          {
+            "title": "jQuery API",
+            "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/jqueryapi.png",
+            "description": "根据最新的 jQuery 1.11.x 和 2.1.x 版本翻译的 jQuery API 中文文档/手册。",
+            "site": "https://www.jquery123.com/"
+          },
+          {
+            "title": "Next.js",
+            "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/nextjs.png",
+            "description": "Next.js 是一个轻量级的 React 服务端渲染应用框架。",
+            "site": "https://www.nextjs.cn/"
+          },
+          {
+            "title": "Node.js",
+            "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/nodejs.png",
+            "description": "Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。Node.js 使用了一个事件驱动、非阻塞式 I/O 的模型，使其轻量又高效。",
+            "site": "https://www.nodeapp.cn/"
+          },
+          {
+            "title": "ESLint",
+            "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/eslint.png",
+            "description": "ESLint 是一个插件化并且可配置的 JavaScript 语法规则和代码风格的检查工具。ESLint 能够帮你轻松写出高质量的 JavaScript 代码。",
+            "site": "https://cn.eslint.org/"
+          },
+          {
+            "title": "Sass",
+            "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/sass.png",
+            "description": "最流行的 CSS 扩展语言解析器\nSass 是一个成熟、稳定、强大的 CSS 扩展语言解析器。",
+            "site": "https://www.sasscss.com/"
+          },
+          {
+            "title": "LESS",
+            "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/lesscss.png",
+            "description": "LESS 为 CSS 赋予了动态语言的特性，如变量、继承、运算、函数。LESS 既可以在客户端上运行 (支持 IE 6+、Webkit、Firefox)，也可以借助 Node.js 或者 Rhino 在服务端运行。",
+            "site": "https://www.bootcss.com/p/lesscss/"
+          },
+          {
+            "title": "Stylus",
+            "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/stylus.png",
+            "description": "Stylus - 富于表现力、健壮、功能丰富的 CSS 预处理语言",
+            "site": "https://stylus.bootcss.com/"
+          },
+          {
+            "title": "Chart.js",
+            "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/chartjs.png",
+            "description": "开源的 HTML5 图表工具\nChart.js 是为设计和开发人员准备的简单、灵活的 JavaScript 图表工具。",
+            "site": "https://chartjs.bootcss.com/"
+          },
+          {
+            "title": "w3schools",
+            "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/w3schools.png",
+            "description": "w3schools.com 是最受欢迎的前端技术教程网站，但是国内用户一直不能访问，并且国内的中文翻译版本十分陈旧。因此做了个镜像，希望英文好的同学直接去看原版教程吧！",
+            "site": "https://www.quanzhanketang.com/"
+          },
+          {
+            "title": "Nginx",
+            "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/nginx.jpg",
+            "description": "Nginx (engine x) 是一个高性能的HTTP和反向代理服务，也是一个IMAP/POP3/SMTP服务。",
+            "site": "https://nginx.bootcss.com/"
+          },
+          {
+            "title": "Bootstrap Switch",
+            "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/bootstrap-switch.png",
+            "description": "Bootstrap Switch 是对 Bootstrap 控件的扩充。基于选 HTML 中基本的选择框控件实现只有开和关两种状态的单选按钮。",
+            "site": "https://www.bootcss.com/p/bootstrap-switch/"
+          },
+          {
+            "title": "Messenger",
+            "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/messenger.png",
+            "description": "Messenger 是一个非常酷的弹框(Alert)组件，能够非常好的与 Bootstrap 融合，当然，单独使用效果也是非常棒。Messenger 自带4套皮肤。",
+            "site": "https://www.bootcss.com/p/messenger/"
+          },
+          {
+            "title": "Font Awesome",
+            "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/font-awesome.png",
+            "description": "Font Awesome 中包含的所有图标都是矢量的，也就可以任意缩放，避免了一个图标做多种尺寸的麻烦。CSS 对字体可以设置的样式也同样能够运用到这些图标上了。",
+            "site": "https://www.bootcss.com/p/font-awesome/"
+          },
+          {
+            "title": "Simple Icons",
+            "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/simpleicons.png",
+            "description": "Simple Icons -- Icon汇。收集众多网站的 Logo，并提供高质量、不同尺寸的 png 格式图片给广大网友，所有 Icon 版权归其所属公司。",
+            "site": "https://www.bootcss.com/p/simple-icons/"
+          },
+          {
+            "title": "Web 安全色",
+            "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/websafecolors.png",
+            "description": "本表中列出的是 WEB 设计、开发中常用安全色。列于此是为了方便大家参考。",
+            "site": "https://www.bootcss.com/p/websafecolors/"
+          },
+          {
+            "title": "Grumble.js",
+            "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/grumblejs.png",
+            "description": "气泡形状的提示（Tooltip）控件\n一个气泡形状的提示（Tooltip）控件，可以在其围绕的元素周围做360度任意定位。",
+            "site": "https://www.bootcss.com/p/grumblejs/"
+          },
+          {
+            "title": "Buttons",
+            "logo": "https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.3/dist/img/buttons.png",
+            "description": "CSS 按钮样式库\nButtons 是一个基于 Sass 和 Compass 构建的CSS按钮（button）样式库，图标采用的是Font Awesome，可以和 Bootstrap 融合使用。",
+            "site": "https://www.bootcss.com/p/buttons/"
+          }
+        ]
+      },
+      {
+        "title": "iCON",
+        "children": [
+          {
+            "title": "矢量图库",
+            "description": "来自阿里巴巴的矢量图库",
+            "site": "https://www.iconfont.cn/"
+          },
+          {
+            "title": "graphberry",
+            "site": "https://www.graphberry.com/category/icons"
+          },
+          {
+            "title": "iconmonstr",
+            "site": "https://iconmonstr.com"
+          },
+          {
+            "title": "iconfinder",
+            "site": "https://www.iconfinder.com"
+          }
+        ]
+      },
+      {
+        "title": "LOGO",
+        "children": [
+          {
+            "title": "logoeps",
+            "site": "https://logoeps.com"
+          }
+        ]
+      },
+      {
+        "title": "无版权图片",
+        "children": [
+          {
+            "title": "无版权图片",
+            "description": "全球最大的无版权图片素材网站",
+            "site": "https://unsplash.com/"
+          },
+          {
+            "title": "pixabay",
+            "site": "https://pixabay.com/"
+          },
+          {
+            "title": "pexels  ",
+            "site": "https://www.pexels.com/"
+          },
+          {
+            "title": "visualhunt",
+            "site": "https://visualhunt.com/"
+          },
+          {
+            "title": "ssyer",
+            "site": "http://www.ssyer.com/"
+          },
+          {
+            "title": "生活/旅行",
+            "site": "https://kaboompics.com/"
+          },
+          {
+            "title": "靈感泉源",
+            "site": "https://www.flickr.com/"
+          },
+          {
+            "title": "高清摄影",
+            "site": "https://www.lifeofpix.com/"
+          },
+          {
+            "title": "食物",
+            "site": "https://www.foodiesfeed.com/"
+          },
+          {
+            "title": "IM",
+            "site": "http://imcreator.com/free"
+          },
+          {
+            "title": "Fancycrave",
+            "site": "http://fancycrave.com/"
+          },
+          {
+            "title": "泼辣图片",
+            "site": "http://www.polayoutu.com/collections"
+          },
+          {
+            "title": "gratisography",
+            "site": "http://www.gratisography.com/"
+          },
+          {
+            "title": "Steetwill",
+            "site": "http://streetwill.co/"
+          }
+        ]
+      },
+      {
+        "title": "无版权音频",
+        "children": [
+          {
+            "title": "soundcloud",
+            "site": "https://soundcloud.com"
+          },
+          {
+            "title": "jewelbeat",
+            "site": "www.jewelbeat.com/free/free-production-music.htm"
+          },
+          {
+            "title": "audionautix",
+            "site": "http://audionautix.com/index.php"
+          },
+          {
+            "title": "looperman",
+            "site": "https://www.looperman.com/loops"
+          },
+          {
+            "title": "freemusicarchive",
+            "site": "http://freemusicarchive.org/"
+          },
+          {
+            "title": "freesound",
+            "site": "https://freesound.org/"
+          },
+          {
+            "title": "ccmixter",
+            "site": "http://beta.ccmixter.org/stems"
+          },
+          {
+            "title": "musopen",
+            "site": "https://musopen.org/music/"
+          },
+          {
+            "title": "cctrax",
+            "site": "https://cctrax.com/"
+          }
+        ]
+      },
+      {
+        "title": "无版权视频素材",
+        "children": [
+          {
+            "title": "Pexels",
+            "site": "https://videos.pexels.com/"
+          },
+          {
+            "title": "Pixabay",
+            "site": "https://pixabay.com/"
+          },
+          {
+            "title": "wedistill",
+            "site": "http://www.wedistill.io/videos"
+          },
+          {
+            "title": "videvo",
+            "site": "https://www.videvo.net/"
+          },
+          {
+            "title": "lifeofvids",
+            "site": "http://www.lifeofvids.com/"
+          },
+          {
+            "title": "vidlery",
+            "site": "http://vidlery.com/"
+          },
+          {
+            "title": "vidsplay",
+            "site": "http://www.vidsplay.com/"
+          },
+          {
+            "title": "openfootage",
+            "site": "https://www.openfootage.net/"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 6,
     "title": "求职招聘",
     "icon": "icon-third-zhaopinzhongxin",
-    "route": "/category/hr"
+    "key": "hr",
+    "children": [
+      {
+        "title": "热门招聘",
+        "tips": "<p style='color:#F56C6C;'>没有广告费！！！</p>",
+        "children": [
+          {
+            "title": "拉钩",
+            "logo": "https://ecmb.bdimg.com/tam-ogel/588c95515a0e1d2ebf6c0670f65e90dd_121_121.jpg",
+            "description": "拉勾网是专业的互联网行业招聘平台。致力于提供真实可靠的互联网招聘信息。工资不面议。找工作、要招聘、搜人才就来拉勾网。互联网行业找工作就上拉勾网。",
+            "site": "https://www.lagou.com/"
+          },
+          {
+            "title": "Boss",
+            "logo": "https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1109465500,3573363372&fm=58&s=98235E32C415D8331AE667580200C0EE&bpow=121&bpoh=75",
+            "description": "BOSS直聘是权威领先的招聘网,开启人才网招聘求职新时代,让求职者与Boss直接开聊、加快面试、即时反馈,找工作就来BOSS直聘和Boss开聊吧!",
+            "site": "https://www.zhipin.com/"
+          },
+          {
+            "title": "腾讯招聘",
+            "logo": "https://cdn.multilingualres.hr.tencent.com/tencentcareer/static/images/Tencent-logo-b.png",
+            "description": "腾讯长期致力于社交平台与数字内容两大核心业务,积极拥抱产业互联网,努力成为各行各业数字化助手,通过连接,提升每一个人的生活品质。 ",
+            "site": "https://careers.tencent.com/"
+          },
+          {
+            "title": "猎聘网",
+            "logo": "https://ecmb.bdimg.com/tam-ogel/f6b01f09a460619ae1566efae90180d3_121_121.jpg",
+            "description": "猎聘为招聘中高端人才提供超过500万条精英职业找工作信息,70000多位猎头在线为您提供找工作服务,覆盖40多个招聘行业,发布世界500强企业招聘信息。",
+            "site": "https://www.liepin.com/"
+          },
+          {
+            "title": "斗米",
+            "logo": "https://ss2.bdstatic.com/8_V1bjqh_Q23odCf/pacific/1889802553.jpg",
+            "description": "斗米是高效的一站式招聘服务平台，为广大基层岗位求职者提供安全、丰富的全职与兼职工作信息，帮助求职者快速找到合适岗位。为企业提供在线招聘、线下RPO招聘、岗位外包等专业的服务。",
+            "site": "http://www.doumi.com/"
+          },
+          {
+            "title": "中华英才",
+            "logo": "https://st02.chrstatic.com/themes/pcchinahr/img/hf/logo.gif",
+            "description": "中华英才网人才招聘网，为您提供人才网招聘信息，职位招聘信息，高薪职位招聘信息，白领招聘信息等，了解人才网招聘信息，中华英才人才招聘网",
+            "site": "https://www.chinahr.com/"
+          },
+          {
+            "title": "58同城",
+            "logo": "https://img.58cdn.com.cn/logo/58/160_45/logo-o.gif",
+            "description": "58同城分类信息网，为你提供房产、招聘、黄页、团购、交友、二手、宠物、车辆、周边游等海量分类信息，充分满足您免费查看/发布信息的需求。",
+            "site": "https://www.58.com"
+          },
+          {
+            "title": "智联招聘",
+            "logo": "https://fecdn1.zhaopin.cn/www/assets/zhaopin.4659478df1ec9a2e6ed76997a64884f6.png",
+            "description": "智联招聘全程职业发展平台,1.6亿求职用户+每天新增780万高薪职位+415万名企雇主,立即登录投简历,24小时找到好工作!",
+            "site": "https://www.zhaopin.com/"
+          },
+          {
+            "title": "大街网",
+            "logo": "",
+            "description": "大街网创立于2008年底，是一家真正专属于年轻人的移动社交招聘平台,为年轻职场人匹配最佳工作机会,拓展职场人脉,提升职场价值.大街想要做的,就是用互联网思维,以颠覆招聘行业的方式来服务招聘行业.",
+            "site": "https://www.dajie.com/"
+          },
+          {
+            "title": "领英",
+            "logo": "https://ss2.bdstatic.com/8_V1bjqh_Q23odCf/pacific/1907036247.jpg",
+            "description": "LinkedIn（领英）是全球职场社交平台，覆盖全球6.1亿会员及200多个国家和地区，致力于打造“一站式职业发展平台”，帮助职场人发挥所长，连接无限机会。在领英，您可以轻松打造职业形象、获取商业洞察、拓展职业人脉并发现更多职业机遇。",
+            "site": "https://www.linkedin.com"
+          },
+          {
+            "title": "脉脉",
+            "logo": "https://acc.maimai.cn/images/logo_new.png",
+            "description": "脉脉(maimai.cn),中国领先的职场实名社交平台,利用科学算法为职场人拓展人脉,降低商务社交门槛,实现各行各业交流合作。",
+            "site": "https://maimai.cn/"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "代码管理",
     "id": 7,
     "icon": "icon-third-code",
-    "route": "/category/code"
+    "key": "code",
+    "children": [
+      {
+        "title": "代码仓库",
+        "children": [
+          {
+            "title": "G码云",
+            "site": "https://gitee.com/",
+            "logo": "/img/site/gitee.jpg",
+            "description": "码云(gitee.com)是 OSCHINA.NET 推出的代码托管平台，支持 Git 和 SVN，提供免费的私有仓库托管。目前已有超过 350 万的开发者选择码云。"
+          },
+          {
+            "title": "GITHUB",
+            "site": "https://www.github.com",
+            "logo": "/img/site/github.png",
+            "description": "使用GitHub的API，Jekyll和GitHub Pages快速创建您的个人开发者网站。"
+          },
+          {
+            "title": "GitLab",
+            "site": "https://about.gitlab.com/"
+          },
+          {
+            "title": "Coding",
+            "site": "https://coding.net/"
+          },
+          {
+            "title": "阿里云",
+            "description": "阿里云提供的免费GIT代码版本控制器",
+            "site": "https://code.aliyun.com/"
+          }
+        ]
+      },
+      {
+        "title": "云服务",
+        "children": [
+          {
+            "title": "阿里云",
+            "site": "https://www.aliyun.com"
+          },
+          {
+            "title": "腾讯云",
+            "site": "https://cloud.tencent.com/"
+          },
+          {
+            "title": "华为云",
+            "site": "https://www.huaweicloud.com/"
+          },
+          {
+            "title": "京东云",
+            "site": "https://www.jdcloud.com/"
+          },
+          {
+            "title": "百度云",
+            "site": "https://cloud.baidu.com/"
+          },
+          {
+            "title": "AZURE",
+            "site": "https://azure.microsoft.com/zh-cn/"
+          },
+          {
+            "title": "AWS",
+            "site": "https://aws.amazon.com/cn/"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 8,
     "title": "分享推广",
     "icon": "el-icon-share",
-    "route": "/category/share"
+    "key": "share",
+    "children": [
+      {
+        "title": "个人开发",
+        "children": [
+          {
+            "title": "Trove-Go",
+            "description": "Trove 是 Go 语言的包依赖管理器。使用最新 v1.12.9 SDK 编译，最低需求版本未测试。",
+            "site": "https://github.com/Yanlong-LI/go-trove"
+          },
+          {
+            "title": "HelloWorld",
+            "description": "用Go语言开发的P2P聊天工具",
+            "site": "https://github.com/Yanlong-LI/HelloWorld-GO"
+          }
+        ]
+      },
+      {
+        "title": "参与项目",
+        "children": [
+          {
+            "title": "微信平台SDK",
+            "description": "一个简单易用的微信公众平台SDK。由作者Zou Yiliang团队开发的微信公众号、微信小程序、微信支付多功能集成SDK，方便快速集成到主流PHP框架",
+            "site": "https://github.com/Yanlong-LI/wechat"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 9,
     "title": "友情链接",
     "icon": "icon-third-link",
-    "route": "/category/link"
+    "key": "link",
+    "children": [
+      {
+        "title": "友情链接①",
+        "children": [
+          {
+            "title": "烟笼里",
+            "description": "个人博客",
+            "site": "https://blog.yanlongli.com"
+          },
+          {
+            "title": "南丞嘚吧嘚",
+            "description": "南丞_独立的个人博客网站|南丞_的个人博客,无关于技术,无关于成长。关注于web开发技术和web安全技术的学习研究",
+            "site": "https://friday-go.cc/"
+          }
+        ]
+      },
+      {
+        "title": "赞助链接②"
+      }
+    ]
   },
   {
     "id": 10,
     "title": "新闻公告",
     "icon": "icon-third-tongzhi",
-    "route": "/category/news"
+    "key": "news",
+    "children": [
+      {
+        "title": "最新资讯",
+        "children": [
+          {
+            "title": "全球互译",
+            "description": "最近发现有很多项目缺少本地化语言，而又很少又这样的社区，于是创建此项目。",
+            "site": "https://trans.daohang.dev"
+          },
+          {
+            "title": "HelloWorld",
+            "description": "HelloWorld 是一款面向全球的聊天平台",
+            "site": "https://chat.daohang.dev"
+          }
+        ]
+      },
+      {
+        "title": "公告列表",
+        "children": [
+          {
+            "title": "全球互译",
+            "description": "最近发现有很多项目缺少本地化语言，而又很少又这样的社区，于是创建此项目。"
+          }
+        ]
+      }
+    ]
   }
 ]
